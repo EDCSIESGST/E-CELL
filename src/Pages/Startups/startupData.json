@@ -1,0 +1,85 @@
+[
+    {
+      "name": "Startup 1",
+      "domain": "Tech",
+      "founder": "Founder 1",
+      "registration": "Reg 1",
+      "startupYear": 2020,
+      "passoutYear": 2019,
+      "branch": "IT"
+    },
+    {
+      "name": "Startup 2",
+      "domain": "Finance",
+      "founder": "Founder 2",
+      "registration": "Reg 2",
+      "startupYear": 2019,
+      "passoutYear": 2018,
+      "branch": "Finance"
+    },
+    {
+      "name": "Startup 3",
+      "domain": "Healthcare",
+      "founder": "Founder 3",
+      "registration": "Reg 3",
+      "startupYear": 2021,
+      "passoutYear": 2020,
+      "branch": "Medicine"
+    },
+    {
+      "name": "Startup 4",
+      "domain": "E-commerce",
+      "founder": "Founder 4",
+      "registration": "Reg 4",
+      "startupYear": 2018,
+      "passoutYear": 2017,
+      "branch": "Business"
+    },
+    {
+        "name": "Startup 4",
+        "domain": "E-commerce",
+        "founder": "Founder 4",
+        "registration": "Reg 4",
+        "startupYear": 2018,
+        "passoutYear": 2017,
+        "branch": "Business"
+      },
+      {
+        "name": "Startup 4",
+        "domain": "E-commerce",
+        "founder": "Founder 4",
+        "registration": "Reg 4",
+        "startupYear": 2018,
+        "passoutYear": 2017,
+        "branch": "Business"
+      },
+      {
+        "name": "Startup 4",
+        "domain": "E-commerce",
+        "founder": "Founder 4",
+        "registration": "Reg 4",
+        "startupYear": 2018,
+        "passoutYear": 2017,
+        "branch": "Business"
+      },
+      {
+        "name": "Startup 4",
+        "domain": "E-commerce",
+        "founder": "Founder 4",
+        "registration": "Reg 4",
+        "startupYear": 2018,
+        "passoutYear": 2017,
+        "branch": "Business"
+      },
+      {
+        "name": "Startup 4",
+        "domain": "E-commerce",
+        "founder": "Founder 4",
+        "registration": "Reg 4",
+        "startupYear": 2018,
+        "passoutYear": 2017,
+        "branch": "Business"
+      }
+    
+  ]
+  

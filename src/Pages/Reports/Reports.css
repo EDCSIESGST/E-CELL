@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
+:root {
+    /* COLORS */
+
+    --backgroundColor: #090E13;
+    --containerColor: #0F151C;
+    --textColor: #2A3B4B;
+    --linkColor: #fff;
+
+    --primaryColor: #0668CB;
+    --secondaryColor: #1DCEEF;
+    --complementaryColor: rgb(255, 255, 148);
+
+    
+
+    --darkText: ;
+    --lightText: rgba(57, 82, 107, 1);
+
+
+    
+
+    /* Font Families */
+    --DefaultFont: 'League Spartan', sans-serif;
+
+    /* MISC */
+    --borderRadius: 10px;
+    --headingfont:32px;
+    --contentfont:24px;
+    --subheadingfont:24px;
+    --eventfont:16px
+    /* IMAGES */
+    --Logo: url('');
+    --buttoncolor:#0668CB;
+}
+#Reports {
+    text-align: center;
+    background-color: var(--containerColor); /* Center align the content within the section */
+  }
+
+  /* Additional CSS styles for better appearance */
+  #Reports h2 {
+    margin: 20px 0; /* Add some spacing between the headings */
+  }
+
+  #Reports iframe {
+    display: block; /* Ensure the iframe is centered as well */
+    margin: 0 auto; /* Center the iframe horizontally */
+  }
+

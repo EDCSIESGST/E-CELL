@@ -1,0 +1,83 @@
+/* src/StartupTable.css */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
+:root {
+  /* COLORS */
+
+  --backgroundColor: #090E13;
+  --containerColor: #0F151C;
+  --textColor: #2A3B4B;
+  --linkColor: #fff;
+
+  --primaryColor: #0668CB;
+  --secondaryColor: #1DCEEF;
+  --complementaryColor: rgb(255, 255, 148);
+
+  
+
+  --darkText: ;
+  --lightText: rgba(57, 82, 107, 1);
+
+
+  
+
+  /* Font Families */
+  --DefaultFont: 'League Spartan', sans-serif;
+
+  /* MISC */
+  --borderRadius: 10px;
+  --headingfont:32px;
+  --contentfont:24px;
+  --subheadingfont:24px;
+  --eventfont:16px
+  /* IMAGES */
+  --Logo: url('');
+  --buttoncolor:#0668CB;
+}
+*{
+  overflow-x: hidden;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color:var(--backgroundColor);
+}
+
+  /* src/StartupTable.css */
+.table-container {
+  overflow-x: auto;
+  font-family: "League Spartan", sans-serif; /* Use League Spartan font */
+  background-color: var(--containerColor);
+  padding: 2%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  color: white; /* Text color is white */
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: var(--containerColor);
+}
+
+@media (max-width:992px) {
+  .table-container{
+    padding: 0%;
+  }
+}

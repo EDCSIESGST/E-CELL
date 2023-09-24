@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
+:root {
+    /* COLORS */
+
+    --backgroundColor: #090E13;
+    --containerColor: #0F151C;
+    --textColor: #2A3B4B;
+    --linkColor: #fff;
+
+    --primaryColor: #0668CB;
+    --secondaryColor: #1DCEEF;
+    --complementaryColor: rgb(255, 255, 148);
+
+    
+
+    --darkText: ;
+    --lightText: rgba(57, 82, 107, 1);
+
+
+    
+
+    /* Font Families */
+    --DefaultFont: 'League Spartan', sans-serif;
+
+    /* MISC */
+    --borderRadius: 10px;
+    --headingfont:32px;
+    --contentfont:24px;
+    --subheadingfont:24px;
+    --eventfont:16px
+    /* IMAGES */
+    --Logo: url('');
+    --buttoncolor:#0668CB;
+}
+*{
+    margin: 0;
+    padding: 0;
+  overflow-x: hidden;
+    
+}
+body{
+    background-color:var(--backgroundColor);
+    overflow-x: hidden;
+}
+section{
+    padding-top: 2%;
+    padding-bottom:5%;
+}
+
+ h2{
+    font-size: var(--headingfont);
+    font-weight: 900;
+    color: var(--linkColor);
+    font-family: var(--DefaultFont);
+}
+h3{
+    font-size:  var(--subheadingfont);
+    font-weight: 600;
+    color: #fff;
+    font-family: var(--DefaultFont);
+}
+p{
+    font-size: var(--contentfont);
+    font-weight: 400;
+    color: var(--complementaryColor);
+    font-family: var(--DefaultFont);
+
+}
+.video-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#About{
+    display: flex;
+    flex-direction: row;
+padding-left: 5%;
+padding-right: 5%;
+gap:10%;
+}
+button{
+    background-color:var(--buttoncolor) ;
+    text-align: center;
+    padding:10px 10px 10px 10px;
+    color: #fff;
+    font-family: var(--DefaultFont);
+    font-size: 24px;
+   
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+border: #0668CB;
+}
+#Registerbutton{
+    background-color:var(--buttoncolor) ;
+    text-align: center;
+ 
+    color: #fff;
+    font-family: var(--DefaultFont);
+    font-size: 16px;
+   padding: 5px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+border: #0668CB;
+
+}
+#Registerbutton:hover{
+    color: var(--backgroundColor);
+}
+#row{
+    width: 60%;
+
+}
+
+.Stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.Icon{
+    padding-bottom: 10px;
+}
+
+#Events{
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+   
+    overflow: hidden;
+}
+#Currentevents{
+   background-color: var(--containerColor);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+    
+   
+   
+}
+#Currentevents h2{
+text-align: center;
+}
+.Description{
+    width: 60%;
+    margin-bottom: 20px;
+}
+.Upcomingevents{
+    display: flex;
+    flex-direction: row;
+    gap:8%;
+margin-bottom: 5%;
+padding-top: 20px;
+height: max-content;
+   
+}
+
+.Upcomingevents p{
+    font-size: var(--eventfont);
+}
+.Eventsimg{
+    
+}
+.Eventsimg img {
+    max-width: 100%;
+    height:auto;
+    border-radius: 5%;
+}
+
+#Previousevents{
+    background-color: var(--containerColor);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+        text-align: center;
+    padding: 2%;
+   width: 25%;
+    
+
+   overflow: hidden;
+}
+.imagecon{
+    padding-top: 20px;
+}
+.Eventsimg:not(:last-child){
+    margin-bottom: 20%;
+}
+.Preventheading{
+    
+}
+
+  #Newsletter{
+    text-align: center;
+    background-color: var(--containerColor);
+  }
+#Newsletter h3{
+    font-size: 48px;
+    font-weight: bolder;
+}
+#newsletterp{
+    padding-left: 10%;
+    padding-right: 10%;
+   
+   
+}
+
+/* Two above and two below for screens between 768px and 992px (inclusive) */
+
+@media (max-width: 992px){
+section{
+   padding-top: 10%;
+   padding-bottom: 10%;
+}
+    #Statistics{
+    padding-top: 5%;
+}
+    #About{
+        display: flex;
+        flex-direction:column;
+  padding: 0;
+    gap:10%;
+align-items: center;
+text-align: justify;
+    }
+    
+    #row{
+        width: 80%;
+        text-align: center;
+     
+    
+    }
+    #row p{
+        font-size: 16px;
+    }
+    #aboutimg{
+        padding-top: 3%;
+    }
+    
+
+}
+/* Especially for stats */
+@media (min-width: 768px) and (max-width: 992px) {
+    .StatsGrid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Stat {
+        width: calc(50% - 20px); /* Two items per row with spacing */
+        margin: 10px;
+    }
+    
+}
+
+/* Four in a row for screens wider than 992px */
+@media (min-width: 992px) {
+    .StatsGrid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .Stat {
+        width: calc(25% - 20px); /* Four items per row with spacing */
+        margin: 10px;
+    }
+    
+}
+/* For events */
+@media (max-width: 1200px)
+{
+#Events{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    align-items: center;
+    padding: 2%;
+
+}
+
+#Currentevents{
+   background-color: var(--containerColor);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+
+   
+}
+.Description{
+    width: 90%;
+}
+.Upcomingevents{
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 30px;
+margin-bottom: 5%;
+align-items: center;
+text-align: center;
+   
+}
+
+.Upcomingevents p{
+    font-size: var(--eventfont);
+}
+.Eventsimg{
+  
+}
+.Eventsimg img {
+    width: auto;
+    height: 30vh;
+    border-radius: 5%;
+}
+
+#Previousevents{
+    background-color: var(--containerColor);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2%;
+ width: 90%;
+   
+
+   
+}
+.Eventsimg:not(:last-child){
+    margin-bottom: 10%;
+}
+
+}

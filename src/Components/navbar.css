@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
+:root {
+    /* COLORS */
+
+    --backgroundColor: #090E13;
+    --containerColor: #0F151C;
+    --textColor: #2A3B4B;
+    --linkColor: #fff;
+
+    --primaryColor: #0668CB;
+    --secondaryColor: #1DCEEF;
+    --complementaryColor: rgb(255, 255, 148);
+
+    
+
+    --darkText: ;
+    --lightText: rgba(57, 82, 107, 1);
+
+
+    
+
+    /* Font Families */
+    --DefaultFont: 'League Spartan', sans-serif;
+
+    /* MISC */
+    --borderRadius: 10px;
+    --headingfont:32px;
+    --contentfont:24px;
+    --subheadingfont:24px;
+    --eventfont:16px
+    /* IMAGES */
+    --Logo: url('');
+}
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  #Navs{
+    overflow-x: hidden;
+  }
+  
+  .nav_ul li {
+    padding: 0 0.6rem;
+  
+  }
+  nav{
+   background-color:var(--backgroundColor);
+   
+  }
+  .navbar-brand img{
+    height: 70px;
+    width: auto;
+  }
+  
+  .nav_ul a {
+    font-size: 1.05rem;
+     
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color:white;
+    font-family: var(--DefaultFont);
+  }
+  .navbar{
+    position: sticky;
+  }
+  .nav_ul li :hover{
+    color: var(--primaryColor);
+  }
+  .btn1 {
+    border: 0;
+   padding: 3%;
+    border-radius:10px;
+    width:100px;
+    height: auto;
+    color: #fff;
+    background-color:var(--primaryColor);
+    padding: 1px;
+  }
+  .navbar-toggler{
+    width: auto;
+    height: 30px;
+    color: #fff;
+  }
+  .navbar-toggler-icon{
+    height: 30px;
+    color: #fff;
+    border: #fff;
+  }
+  .nav-link{
+    color: var(--linkColor);
+  }
+  .nav-link:hover{
+    color: var(--backgroundColor);
+  }
+ 
+  
+  .nav-link:visited {
+    color:var(--linkColor); /* Set the color for visited links */
+  }
