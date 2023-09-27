@@ -1,41 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
-:root {
-    /* COLORS */
 
-    --backgroundColor: #090E13;
-    --containerColor: #0F151C;
-    --textColor: #2A3B4B;
-    --linkColor: #fff;
-
-    --primaryColor: #0668CB;
-    --secondaryColor: #1DCEEF;
-    --complementaryColor: rgb(255, 255, 148);
-
-    
-
-    --darkText: ;
-    --lightText: rgba(57, 82, 107, 1);
-
-
-    
-
-    /* Font Families */
-    --DefaultFont: 'League Spartan', sans-serif;
-
-    /* MISC */
-    --borderRadius: 10px;
-    --headingfont:32px;
-    --contentfont:24px;
-    --subheadingfont:24px;
-    --eventfont:16px
-    /* IMAGES */
-    --Logo: url('');
-}
-* {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
   #Navs{
     overflow-x: hidden;
   }

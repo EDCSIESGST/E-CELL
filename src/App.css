@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
+:root {
+    /* COLORS */
+
+    --backgroundColor: #090E13;
+    --containerColor: #0F151C;
+    --textColor: #425f7a;
+    --linkColor: #fff;
+
+    --primaryColor: #0668CB;
+    --secondaryColor: #1DCEEF;
+    --complementaryColor: rgb(255, 255, 148);
+
+    
+
+    --darkText: ;
+    --lightText: rgba(57, 82, 107, 1);
+
+
+    
+
+    /* Font Families */
+    --DefaultFont: 'League Spartan', sans-serif;
+
+    /* MISC */
+    --borderRadius: 10px;
+    --headingfont:32px;
+    --contentfont:24px;
+    --subheadingfont:24px;
+    --eventfont:16px
+    /* IMAGES */
+    --Logo: url('');
+    --buttoncolor:#0668CB;
+}
+*{
+    margin: 0;
+    padding: 0;
+  overflow-x: hidden;
+    
+}
+body{
+    background-color:var(--backgroundColor);
+    overflow-x: hidden;
+}
+a, button, .btn {
+  transition: 0.3s all !important;
+}
+
+
+
+
+section{
+  padding-top: 2%;
+  padding-bottom:5%;
+}
+
+h2{
+  font-size: var(--headingfont);
+  font-weight: 900;
+  color: var(--linkColor);
+  font-family: var(--DefaultFont);
+}
+h3{
+  font-size:  var(--subheadingfont);
+  font-weight: 600;
+  color: #fff;
+  font-family: var(--DefaultFont);
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #fff;
+}
+p{
+  font-size: var(--contentfont);
+  font-weight: 400;
+  color: var(--textColor);
+  font-family: var(--DefaultFont);
+
+}
+
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +117,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+@media (max-width: 786px) {
+  
+  .footer .container {
+      flex-direction: column !important;
+      align-items: center;
+  }
+
 }

@@ -1,12 +1,11 @@
-
 import React from 'react';
 import './StartupTable.css'; // Create this CSS file for styling
 import startupData from './startupData.json'; // Import the JSON data
-import Footer from '../../Components/Footer';
+
 function StartupTable() {
   return (
-   <>
-    <div className="table-container">
+   
+    <div className="table-container container">
       <table>
         <thead>
           <tr>
@@ -34,7 +33,6 @@ function StartupTable() {
         </tbody>
       </table>
     </div>
-        </>
    
   );
 }

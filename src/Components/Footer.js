@@ -6,6 +6,7 @@ import nba from "../Assets/Images/image 3.png"
 const Footer = () => {
   return (
     <div className='footer'>
+      <div className="container">
         <div className = "Leftfooter">
             <img src ={logo}></img>
 
@@ -29,7 +30,7 @@ const Footer = () => {
      
             <p>Copyright © All rights reserved <br/> Developed by the Technical Team of  E-CELL SIES GST</p>
             </div>
-
+            </div>
       </div>
   );
 };
