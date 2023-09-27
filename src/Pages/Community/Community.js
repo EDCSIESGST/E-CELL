@@ -13,6 +13,7 @@ const Community = () => {
         <div className="container">
 
           <CommunityInfo></CommunityInfo>
+          
           <CommunityPerks></CommunityPerks>
 
         </div>

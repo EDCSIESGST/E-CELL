@@ -1,6 +1,6 @@
 .react-tabs {
     display: flex;
-    margin: 100px 0px;
+    margin: 30px 0px;
 }
 .ComInfo {
     padding: 80px 50px;
@@ -29,7 +29,7 @@ ul.react-tabs__tab-list {
     padding: 45px;
     border-radius: var(--borderRadius);
     border: none;
-    font-size: 26px;
+    font-size: 30px;
     transition: 0.3s all !important;
     cursor: pointer;
     overflow: hidden !important;
@@ -66,8 +66,9 @@ ul.react-tabs__tab-list {
     margin: 100px 0px 80px;
 }
 .PerksNFeatures h5 {
-    margin-bottom: 50px;
+ margin-bottom: 50px;
     font-weight: 600;
+    text-align: center;
 }
 .PerksCards {
     display: grid;
@@ -94,7 +95,7 @@ ul.react-tabs__tab-list {
 
 
 
-@media (max-width: 786px) {
+@media (max-width: 1200px) {
     
     .PerksCards {
         grid-template-columns: 1fr !important;
@@ -104,6 +105,7 @@ ul.react-tabs__tab-list {
     }
     .react-tabs {
         flex-direction: column-reverse !important;
+        margin: 10px;
     }
     .ComTabs , .ComInfo {
         width: 100% !important;
@@ -111,4 +113,35 @@ ul.react-tabs__tab-list {
     .react-tabs__tab--selected {
         transform: translate(0px);
     }
+    .react-tabs{
+        margin-top: 0px;
+    }
+    .PerksCards p {
+        text-align: center;
+       
+    }
+    .PerksNFeatures h5 {
+        margin-bottom: 20px;
+           font-weight: 600;
+           text-align: center;
+       }
+       .react-tabs__tab-list li {
+        background: #232D39;
+        color: #fff;
+        font-weight: 800;
+        padding: 45px;
+        border-radius: var(--borderRadius);
+        border: none;
+        font-size: 16px;
+        transition: 0.3s all !important;
+        cursor: pointer;
+        overflow: hidden !important;
+    }
+    .ComInfo h2{
+        text-align: center;
+    }
+    .ComInfo p{
+        font-size: 18px;
+    }
+       
 }
