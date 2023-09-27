@@ -1,76 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
-:root {
-    /* COLORS */
-
-    --backgroundColor: #090E13;
-    --containerColor: #0F151C;
-    --textColor: #2A3B4B;
-    --linkColor: #fff;
-
-    --primaryColor: #0668CB;
-    --secondaryColor: #1DCEEF;
-    --complementaryColor: rgb(255, 255, 148);
-
-    
-
-    --darkText: ;
-    --lightText: rgba(57, 82, 107, 1);
 
 
-    
-
-    /* Font Families */
-    --DefaultFont: 'League Spartan', sans-serif;
-
-    /* MISC */
-    --borderRadius: 10px;
-    --headingfont:32px;
-    --contentfont:24px;
-    --subheadingfont:24px;
-    --eventfont:16px
-    /* IMAGES */
-    --Logo: url('');
-    --buttoncolor:#0668CB;
-}
-*{
-    margin: 0;
-    padding: 0;
-  overflow-x: hidden;
-    
-}
-body{
-    background-color:var(--backgroundColor);
-    overflow-x: hidden;
-}
-section{
-    padding-top: 2%;
-    padding-bottom:5%;
-}
-
- h2{
-    font-size: var(--headingfont);
-    font-weight: 900;
-    color: var(--linkColor);
-    font-family: var(--DefaultFont);
-}
-h3{
-    font-size:  var(--subheadingfont);
-    font-weight: 600;
-    color: #fff;
-    font-family: var(--DefaultFont);
-}
-p{
-    font-size: var(--contentfont);
-    font-weight: 400;
-    color: var(--complementaryColor);
-    font-family: var(--DefaultFont);
-
-}
 .video-container{
     display:flex;
     justify-content: center;
     align-items: center;
  
+}
+.video-container iframe {
+    border-radius: var(--borderRadius);
 }
 #About{
     display: flex;
@@ -164,9 +101,7 @@ height: max-content;
 .Upcomingevents p{
     font-size: var(--eventfont);
 }
-.Eventsimg{
-    
-}
+
 .Eventsimg img {
     max-width: 100%;
     height:auto;
@@ -191,9 +126,7 @@ height: max-content;
 .Eventsimg:not(:last-child){
     margin-bottom: 20%;
 }
-.Preventheading{
-    
-}
+
 
   #Newsletter{
     text-align: center;
@@ -311,9 +244,7 @@ text-align: center;
 .Upcomingevents p{
     font-size: var(--eventfont);
 }
-.Eventsimg{
-  
-}
+
 .Eventsimg img {
     width: auto;
     height: 30vh;

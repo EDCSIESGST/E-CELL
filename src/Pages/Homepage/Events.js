@@ -3,7 +3,7 @@ import eventimg from '../../Assets/Images/blue-aesthetic-your-lie-in-april-imbwa
 import buzzup from "../../Assets/Images/Buzz Up Poster (3).png"
 const Events = () => {
   return (
-    <section id="Events">
+    <section id="Events" className="container">
         < div id ="Currentevents">
 <h2> Upcoming Events</h2>
 <br></br>
