@@ -10,9 +10,9 @@ function StartupTable() {
         <thead>
           <tr>
             <th>Startup Name</th>
-            <th>Domain</th>
+            <th>Position</th>
             <th>Founder Name</th>
-            <th>Registration Name</th>
+            <th>Contact</th>
             <th>Startup Year</th>
             <th>Passout Year</th>
             <th>Branch</th>
