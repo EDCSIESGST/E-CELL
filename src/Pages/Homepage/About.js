@@ -1,7 +1,7 @@
 import React from 'react'
 
 import StepsImage from '../../Assets/Images/Steps.png'; 
-
+import staircase from "../../Assets/Images/STAIRCASE-removebg-preview.png"
 
 
 

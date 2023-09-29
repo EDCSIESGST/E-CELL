@@ -24,7 +24,7 @@ function StartupTable() {
               <td>{startup.name}</td>
               <td>{startup.domain}</td>
               <td>{startup.founder}</td>
-              <td>{startup.registration}</td>
+              <td><a>{startup.registration}</a></td>
               <td>{startup.startupYear}</td>
               <td>{startup.passoutYear}</td>
               <td>{startup.branch}</td>

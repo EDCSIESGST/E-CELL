@@ -5,6 +5,7 @@ import CommunityInfo from './CommunityInfo'
 import CommunityPerks from './CommunityPerks'
 
 import './community.css'
+import JoinCommunity from './JoinCommunity'
 
 const Community = () => {
   return (
@@ -15,7 +16,7 @@ const Community = () => {
           <CommunityInfo></CommunityInfo>
           
           <CommunityPerks></CommunityPerks>
-
+          <JoinCommunity></JoinCommunity>
         </div>
 
     </div>

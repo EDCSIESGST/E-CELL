@@ -10,9 +10,10 @@ const Events = () => {
 <div className='Upcomingevents'>
 
     <div className='Description'>
-        <h3>Event Name</h3>
+        <h3>Buzz Up</h3>
         <p>We conduct a number of workshops, speaker sessions, inter-collegiate and national level competitions and also support student-run ventures.</p>
         <br/>
+        <p>Time-5:00pm,2nd October</p>
         <button id="Registerbutton">Register</button>
         
     </div>
@@ -23,10 +24,10 @@ const Events = () => {
 </div>
 <div className='Upcomingevents'>
     <div className='Description'>
-        <h3>Event Name</h3>
+        <h3>Speaker Session</h3>
         <p>We conduct a number of workshops, speaker sessions, inter-collegiate and national level competitions and also support student-run ventures.</p>
         <br/>
-        <button id="Registerbutton">Register</button>
+        <button id="Registerbutton">Coming soon</button>
         
     </div>
     <div className ="Eventsimg">
@@ -35,10 +36,10 @@ const Events = () => {
 </div>
 <div className='Upcomingevents'>
     <div className='Description'>
-        <h3>Event Name</h3>
+        <h3>Bizence</h3>
         <p>We conduct a number of workshops, speaker sessions, inter-collegiate and national level competitions and also support student-run ventures.</p>
         <br/>
-        <button id="Registerbutton">Register</button>
+        <button id="Registerbutton">Coming soon</button>
         
     </div>
     <div className ="Eventsimg">

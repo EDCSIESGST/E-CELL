@@ -88,6 +88,11 @@ ul.react-tabs__tab-list {
     padding: 50px 50px 30px;
     transition: 0.3s all !important;
 }
+#JoinCommunity{
+    width: 100%;
+    background-color: var(--containerColor);
+ 
+}
 
 
 
@@ -140,9 +145,19 @@ ul.react-tabs__tab-list {
     }
     .ComInfo h2{
         text-align: center;
+      
     }
     .ComInfo p{
         font-size: 18px;
     }
      
+}
+@media (max-width: 600px){
+    .ComInfo h2{
+        font-size: 28px;
+    }
+    .ComInfo p{
+        font-size:16px ;
+    }
+    
 }
