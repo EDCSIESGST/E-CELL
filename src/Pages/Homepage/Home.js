@@ -4,6 +4,7 @@ import Newsletter from './Newsletter'
 import Stats from './Stats'
 import About from './About'
 import Events from './Events'
+import Socials from './Socials.'
 
 function Home () {
   return (
@@ -18,6 +19,7 @@ function Home () {
         <About/>
         <Stats/>
         <Events/>
+        <Socials/>
         <Newsletter/>    
 
     </div>

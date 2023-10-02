@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Poppins&display=swap');
+
 :root {
     /* COLORS */
 
     --backgroundColor: #090E13;
     --containerColor: #0F151C;
-    --textColor: #425f7a;
+    --textColor:#aacbf4;
     --linkColor: #fff;
 
     --primaryColor: #0668CB;
@@ -31,6 +34,7 @@
     /* IMAGES */
     --Logo: url('');
     --buttoncolor:#0668CB;
+    --buttonfont: #aacbf4;
 }
 *{
     margin: 0;
@@ -67,7 +71,7 @@ h3{
   font-family: var(--DefaultFont);
 }
 h1,h2,h3,h4,h5,h6 {
-  color: #fff;
+  color: white;
 }
 p{
   font-size: var(--contentfont);

@@ -23,6 +23,7 @@ th {
   background-color: var(--containerColor);
   padding: 2%;
   border-radius: var(--borderRadius);
+
 }
 
 table {
@@ -38,9 +39,17 @@ th, td {
   padding: 8px;
   background-color: var(--containerColor);
 }
+th{
+  color: #aacbf4;
+  font-weight: 900;
+}
+td{
+  color:white;
+}
 
 @media (max-width:992px) {
   .table-container{
     padding: 0%;
   }
+ 
 }

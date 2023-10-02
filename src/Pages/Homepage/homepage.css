@@ -33,7 +33,7 @@ border: #0668CB;
     background-color:var(--buttoncolor) ;
     text-align: center;
  
-    color: #fff;
+    color:var(--buttonfont);
     font-family: var(--DefaultFont);
     font-size: 16px;
    padding: 5px;
@@ -142,7 +142,73 @@ height: max-content;
    
    
 }
-
+#Socials {
+    text-align: center;
+  }
+  
+  #Socials p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  
+  .Socialcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+  }
+  
+  .indisocials {
+    background-color: var(--containerColor);
+    width: calc(20% - 5%); 
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5px; 
+  }
+  
+  
+  @media screen and (min-width: 500px) and (max-width: 800px) {
+    .indisocials {
+      width: calc(50% - 5%);
+     
+    }
+    .Socialcontainer{
+        gap: 20px;
+    }
+    
+  }
+  
+ 
+  @media screen and (min-width: 800px) and (max-width: 1100px) {
+    .indisocials {
+      width: calc(33.33% - 5%);
+    }
+      .Socialcontainer{
+        gap: 20px;
+    } /* 3 items in one row */
+    
+  }
+  
+  
+  @media screen and (min-width: 1100px) {
+    .indisocials {
+      width: calc(20% - 5%); 
+    }
+  }
+  @media screen and (max-width: 499px) {
+    .indisocials {
+      width: 200px;
+    }
+    .Socialcontainer{
+        gap: 20px;
+    }
+  }
+  
+  
+  
 /* Two above and two below for screens between 768px and 992px (inclusive) */
 
 @media (max-width: 992px){
@@ -174,7 +240,9 @@ text-align: justify;
     #aboutimg{
         padding-top: 3%;
     }
+   
     
+
 
 }
 /* Especially for stats */
