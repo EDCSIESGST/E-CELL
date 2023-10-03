@@ -18,7 +18,7 @@ th {
 
   /* src/StartupTable.css */
 .table-container {
-  overflow-x: auto;
+
   font-family: "League Spartan", sans-serif; /* Use League Spartan font */
   background-color: var(--containerColor);
   padding: 2%;
@@ -49,7 +49,8 @@ td{
 
 @media (max-width:992px) {
   .table-container{
-    padding: 0%;
-  }
+    padding: 1%;
+    width: 100%;
+font-size: 6px;  }
  
 }
