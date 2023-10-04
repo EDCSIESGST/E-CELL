@@ -93,6 +93,43 @@ ul.react-tabs__tab-list {
     background-color: var(--containerColor);
  
 }
+.Banner {
+    background: rgba(102, 180, 236, 1);
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Horizontally center */
+  }
+  
+  .InnerBanner {
+    width: 60%;
+    height: 40vh;
+    background: linear-gradient(0deg, #FFDF2B, #FFDF2B);
+    border: 5px solid rgba(45, 22, 15, 1);
+    color: rgba(45, 22, 15, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center */
+    justify-content: center; /* Vertically center */
+  }
+  
+  .InnerBanner h1 {
+    color: rgba(45, 22, 15, 1);
+    font-weight: 900;
+    font-size: 96px;
+  }
+  
+  .InnerBanner p {
+    color: rgba(45, 22, 15, 1);
+    font-weight: 500;
+  }
+  
+
+
 
 
 
@@ -150,6 +187,27 @@ ul.react-tabs__tab-list {
     .ComInfo p{
         font-size: 18px;
     }
+    .InnerBanner h1 {
+        font-size: 64px; /* Decrease font size for smaller screens */
+      }
+    
+      .InnerBanner p {
+        font-size: 18px; /* Decrease font size for smaller screens */
+      }
+    
+      /* Decrease the height of .Banner for smaller screens */
+      .Banner {
+        height: 40vh;
+      }
+      .Bannerimg{
+        width: 90%;
+      }
+      .Bannerimg  img{
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+      }
+
      
 }
 @media (max-width: 600px){

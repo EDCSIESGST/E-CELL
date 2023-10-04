@@ -23,9 +23,9 @@ const Socials = () => {
         <button id='Registerbutton'>Follow</button>
         </div>
         <div className='indisocials'>
-        <img src ={medium}></img>
+     <img src ={medium}></img>
         <p>medium.com</p>
-        <button id='Registerbutton'>Follow</button>
+       <button id='Registerbutton'>Follow</button>
         </div>
         <div className='indisocials'>
         <img src ={linkedin}></img>
