@@ -4,6 +4,7 @@ import Startups from './Pages/Startups/Startups'
 import Reports from './Pages/Reports/Reports'
 import Community from './Pages/Community/Community'
 import Team from './Pages/Team/team'
+import { HashRouter } from 'react-router-dom'
 
 import './App.css';
 

@@ -10,8 +10,10 @@ import Anamika from "../../Assets/Team Photos/Anamika/IMG_20220803_155858_131.pn
 import Hitesh from "../../Assets/Team Photos/Hitesh Patil/WhatsApp Image 2023-07-23 at 5.41.37 PM.jpeg"
 import mokal from "../../Assets/Team Photos/Ayush/IMG_0470.HEIC"
 import Yash from "../../Assets/Team Photos/Yash Bhujbal/Marketing_DSC0033 (3).jpg"
-
+import bhandare from "../../Assets/Team Photos/Yash Bhandare/IMG_20230528_194720(1).jpg"
 import sarvesh from "../../Assets/Team Photos/Sarvesh Bhayje/SAVE_20221029_011914.jpg"
+import Ratul from "../../Assets/Team Photos/Ratul Raj/IMG-20230718-WA0001.jpg"
+import Omkar from "../../Assets/Team Photos/Omkar Gorde/IMG_20230807_224249.jpg"
 const Member = ({ name, role, imgSrc }) => (
   <li className="member">
     <div className="member-image">
@@ -128,17 +130,17 @@ const Team = () => (
     <Member
       name="Aditya Rao"
       role="Tech Co-ord"
-      imgSrc="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/2.png"
+      imgSrc={Omkar}
     />
     <Member
       name="Omkar gorde"
       role="Tech Co-ord"
-      imgSrc="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/3.png"
+      imgSrc={Omkar}
     />
     <Member
       name="Ratul Raj"
       role="Content Co-ord"
-      imgSrc="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/4.png"
+      imgSrc={Ratul}
     />
   </ul>
   <ul className="list-members">
@@ -150,7 +152,7 @@ const Team = () => (
     <Member
       name="Yash Bhandare"
       role="Design Co-ord"
-      imgSrc="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/2.png"
+      imgSrc={bhandare}
     />
     <Member
       name="Anvit Nayak"
