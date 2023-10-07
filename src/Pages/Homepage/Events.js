@@ -1,6 +1,11 @@
 import React from 'react';
-import eventimg from '../../Assets/Images/blue-aesthetic-your-lie-in-april-imbwa0bnn3p8pway.jpg';
-import buzzup from "../../Assets/Images/Buzz Up Poster (3).png"
+
+import buzzup from "../../Assets/Events/Screenshot 2023-10-07 142044.png"
+import bizence from "../../Assets/Events/bizence.webp"
+import eventimg from "../../Assets/Events/img-8454.webp"
+import event1img from "../../Assets/Events/img-2512.webp"
+import event2img from "../../Assets/Events/newbizence1.jpg"
+import event3img from "../../Assets/Events/newbiznece2.jpg"
 const Events = () => {
   return (
     <section id="Events" className="container">
@@ -11,9 +16,9 @@ const Events = () => {
 
     <div className='Description'>
         <h3>Buzz Up</h3>
-        <p>We conduct a number of workshops, speaker sessions, inter-collegiate and national level competitions and also support student-run ventures.</p>
+        <p>Buzz-Up is an online live session where a host conducts an interview with an accomplished entrepreneur, to gain insights and advice on entrepreneurship.</p>
         <br/>
-        <p>Time-5:00pm,2nd October</p>
+        
         <button id="Registerbutton">Register</button>
         
     </div>
@@ -37,13 +42,13 @@ const Events = () => {
 <div className='Upcomingevents'>
     <div className='Description'>
         <h3>Bizence</h3>
-        <p>We conduct a number of workshops, speaker sessions, inter-collegiate and national level competitions and also support student-run ventures.</p>
+        <p>It is a national level Business plan competition. It is an experience which aims to incentivize creative thinking and promote entrepreneurship culture by providing workshops, hands-on experiences ending with a B plan competition where CEO’s and Founders of various companies judge the ideas of the participants.</p>
         <br/>
         <button id="Registerbutton">Coming soon</button>
         
     </div>
     <div className ="Eventsimg">
-        <img src = {buzzup}></img>
+        <img src = {bizence} ></img>
     </div> 
 </div>
 </div>
@@ -57,11 +62,14 @@ const Events = () => {
             </div>
             
             <div className ="Eventsimg">
-            <img src = {eventimg}></img>
+            <img src = {event1img}></img>
             </div>
             
             <div className ="Eventsimg">
-            <img src = {eventimg}></img>
+            <img src = {event2img}></img>
+            </div>
+            <div className ="Eventsimg">
+            <img src = {event3img}></img>
             </div>
             <div className ="Eventsimg">
             <img src = {eventimg}></img>

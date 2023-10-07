@@ -8,7 +8,7 @@ const Navbar = () => {
         <>
         <div id ="Navs" >
             
-            <nav className="navbar navbar-expand-lg navbar-light" >
+            <nav className="navbar navbar-expand-lg navbar-light" sticky="top" >
                 <div className="container py-2">
                     <Link className="navbar-brand" to="/"><img src = {Logo}></img></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,6 +38,9 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/Reports">Reports</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Team">Team</Link>
                             </li>
                           
                           

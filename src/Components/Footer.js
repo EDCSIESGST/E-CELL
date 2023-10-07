@@ -11,8 +11,8 @@ const Footer = () => {
             <img src ={logo}></img>
 
 <p>We conduct a number of workshops, speaker sessions, inter-collegiate and national level competitions and also support student-run ventures.</p>
-<p>Contact: +91 67372901901</p>
-      <p>Mail:dkaa@siesgst.ac.in</p>
+<p>Contact: +91 97572 12304</p>
+      <p>Mail:edc@siesgst.ac.in</p>
         </div>
         <div className = "RightFooter">
         <iframe

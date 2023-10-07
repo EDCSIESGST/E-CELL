@@ -1,6 +1,7 @@
 
   #Navs{
     overflow-x: hidden;
+    overflow: hidden;
   }
   
   .nav_ul li {
@@ -53,9 +54,7 @@
   .nav-link{
     color: var(--linkColor);
   }
-  .nav-link:hover{
-    color: var(--backgroundColor);
-  }
+ 
  
   
   .nav-link:visited {

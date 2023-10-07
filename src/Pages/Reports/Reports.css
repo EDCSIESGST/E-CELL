@@ -33,21 +33,52 @@
     --buttoncolor:#0668CB;
 }
 .accordion {
+  width: 90%;
+ text-align: center;
+  background-color: var(--buttoncolor);
+  color: var(--linkColor);
+ 
+ justify-content: center;
+}
+.reports-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion-item {
+  margin-bottom: 10px;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--buttoncolor);
+}
+
+.accordion-header {
+  background-color: transparent;
+  padding: 10px;
+}
+
+
+.accordion-button {
+  background-color: var(--buttoncolor);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
   text-align: center;
 }
 
-.accordion-item {
-  text-align: left;
-  margin: 0 auto;
-  width: 50%;
+.accordion-button:focus {
+  outline: none;
 }
-.accordion-button {
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+
+.accordion-body {
+  padding: 10px;
+  background-color: #0668CB; /* Set the accordion body background color to match the button */
+}
+.accordion-body iframe{
+  background-color: var(--buttoncolor);
 }
 
 

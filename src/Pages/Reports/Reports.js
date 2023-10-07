@@ -1,47 +1,71 @@
-import React from 'react'
+// Reports.js
+import React, { useState } from 'react';
+import Doc from "../../Assets/HEY JUDEEEEEEEEE.docx"
 import "./Reports.css"
-const Reports = () => {
-  return (
-<div classname="accordion" id="accordionExample">
-  <div classname="accordion-item">
-    <h2 classname="accordion-header">
-      <button classname="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      E-CELL 2022-2023
-      </button>
-    </h2>
-    <div id="collapseOne" classname="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div classname="accordion-body">
-      <iframe src="https://docs.google.com/viewer?url=http://www.pdf995.com/samples/pdf.pdf&embedded=true" frameborder="0"  ></iframe>
-      </div>
-    </div>
-  </div>
-  <div classname="accordion-item">
-    <h2 classname="accordion-header">
-      <button classname="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      E-CELL 2022-2023
-      </button>
-    </h2>
-    <div id="collapseTwo" classname="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div classname="accordion-body">
-      <iframe src="https://docs.google.com/viewer?url=http://www.pdf995.com/samples/pdf.pdf&embedded=true" frameborder="0"  ></iframe>
-      </div>
-    </div>
-  </div>
-  <div classname="accordion-item">
-    <h2 classname="accordion-header">
-      <button classname="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        E-CELL 2022-2023
-      </button>
-    </h2>
-    <div id="collapseThree" classname="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div classname="accordion-body">
-      <iframe src="https://docs.google.com/viewer?url=http://www.pdf995.com/samples/pdf.pdf&embedded=true" frameborder="0"  ></iframe>
-      </div>
-    </div>
-  </div>
-</div>
+const reports = [
+  {
+    title: 'E-CELL',
+    src: Doc,
+  },
+  {
+    title: 'Report 2',
+    src: 'URL_TO_REPORT_2',
+  },
+  {
+    title: 'Report 3',
+    src: 'URL_TO_REPORT_3',
+  },
+  {
+    title: 'Report 4',
+    src: 'URL_TO_REPORT_4',
+  },
+  {
+    title: 'Report 5',
+    src: 'URL_TO_REPORT_5',
+  },
+  {
+    title: 'Report 6',
+    src: 'URL_TO_REPORT_6',
+  },
+];
 
-  )
+function Reports() {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const toggleAccordion = (index) => {
+    if (activeIndex === index) {
+      setActiveIndex(null);
+    } else {
+      setActiveIndex(index);
+    }
+  };
+
+  return (
+    <div className="reports-container">
+      <div className="accordion">
+        {reports.map((report, index) => (
+          <div key={index} className={`accordion-item ${activeIndex === index ? 'active' : ''}`}>
+            <h2 className="accordion-header">
+              <button
+                className="accordion-button"
+                type="button"
+                onClick={() => toggleAccordion(index)}
+              >
+                {report.title}
+              </button>
+            </h2>
+            {activeIndex === index && (
+              <div className="accordion-body">
+                <iframe src={report.src} title={report.title} width="100%" height="500px" />
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
 
-export default Reports
+export default Reports;
+
+

@@ -13,9 +13,7 @@ const About = () => {
         <div id="row"  data-aos="fade-right">
             <h2>What is Ecell?</h2>
             <br/>
-            <p>Entrepreneurship cell is a non-profit student's organization dedicated to promoting the spirit of entrepreneurship among students throughout India. The basic aim of E-Cell is to encourage college-level students today to start their own enterprise. Hundreds of rural as well as urban colleges have established e-cells. 
-
-              Moreover over 70,000 students participate in organizing e-cell activities in India. Some noteworthy examples are – IIT Bombay, IIT Kharagpur, Bits Pillani, VJTI, SPIT, etc.</p>
+            <p>Initated in 2010, the Entrepreneurship Cell of SIESGST is a non profit student organisation dedicated to promoting the spirit of entrepreneurship among the students of India. To achieve this, we conduct events which help spread our message. We also have an incubation team which helps advise and foster the ideas of students who dream of building their own startup.</p>
         </div>
 
         <div id ="aboutimg" data-aos="fade-left">
