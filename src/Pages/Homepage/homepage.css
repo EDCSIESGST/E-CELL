@@ -58,7 +58,12 @@ border: #0668CB;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 30px;
     
+}
+.Stat img{
+    width: 150px;
+    height: 150px;
 }
 .Icon{
     padding-bottom: 10px;

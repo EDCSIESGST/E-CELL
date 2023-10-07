@@ -1,13 +1,17 @@
 import React from 'react';
 import "./team.css"
 import rajiv from "../../Assets/Images/348435917_773914384109778_7402216229396285711_n.jpg"
-import rishij from '../../Assets/tEAM/Rishi j (1).jpg'
+import rishij from "../../Assets/Team Photos/IMG_3696.jpg"
 import jiya from "../../Assets/tEAM/Jiya.jpg"
 import arya from "../../Assets/tEAM/Arya (1).jpg"
 import nidhi from "../../Assets/tEAM/Nidhi (1).jpg"
 import Ved from "../../Assets/Team Photos/Ved Gawade/IMG_20220925_150151.jpg"
 import Anamika from "../../Assets/Team Photos/Anamika/IMG_20220803_155858_131.png"
 import Hitesh from "../../Assets/Team Photos/Hitesh Patil/WhatsApp Image 2023-07-23 at 5.41.37 PM.jpeg"
+import mokal from "../../Assets/Team Photos/Ayush/IMG_0470.HEIC"
+import Yash from "../../Assets/Team Photos/Yash Bhujbal/Marketing_DSC0033 (3).jpg"
+
+import sarvesh from "../../Assets/Team Photos/Sarvesh Bhayje/SAVE_20221029_011914.jpg"
 const Member = ({ name, role, imgSrc }) => (
   <li className="member">
     <div className="member-image">
@@ -52,7 +56,7 @@ const Team = () => (
     <Member
       name="Sarvesh Bhayyje"
       role="PR and Marketing Head"
-      imgSrc="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png"
+      imgSrc={sarvesh}
     />
     <Member
       name="Sakshi Sakhare"
@@ -62,7 +66,7 @@ const Team = () => (
     <Member
       name="Yash Bhujbal"
       role="Vice-Chairperson"
-      imgSrc="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/3.png"
+      imgSrc={Yash}
     />
     <Member
       name="Rajiv Patkar"
@@ -85,12 +89,12 @@ const Team = () => (
     <Member
       name="Ayush Mokal"
       role="Community Co-ord"
-      imgSrc="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/3.png"
+      imgSrc={mokal}
     />
     <Member
       name="Kiran Chinchawade"
       role="Community Co-ord"
-      imgSrc="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/4.png"
+      imgSrc={mokal}
     />
   </ul>
   <ul className="list-members">

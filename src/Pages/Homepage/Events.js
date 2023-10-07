@@ -6,6 +6,7 @@ import eventimg from "../../Assets/Events/img-8454.webp"
 import event1img from "../../Assets/Events/img-2512.webp"
 import event2img from "../../Assets/Events/newbizence1.jpg"
 import event3img from "../../Assets/Events/newbiznece2.jpg"
+import buzzup2 from "../../Assets/Events/pd-cover-page.webp"
 const Events = () => {
   return (
     <section id="Events" className="container">
@@ -72,7 +73,7 @@ const Events = () => {
             <img src = {event3img}></img>
             </div>
             <div className ="Eventsimg">
-            <img src = {eventimg}></img>
+            <img src = {buzzup2}></img>
             </div>
             </div>
 
