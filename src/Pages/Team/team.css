@@ -107,7 +107,7 @@
   .social-link .fab {
     width: 35px;
     height: 35px;
-    line-height: 35px;
+    line-height:35px; 
     border: 1px solid #000;
     margin: 0 7px;
     cursor: pointer;
