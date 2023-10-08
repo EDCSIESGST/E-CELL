@@ -7,6 +7,7 @@ import event1img from "../../Assets/Events/img-2512.webp"
 import event2img from "../../Assets/Events/newbizence1.jpg"
 import event3img from "../../Assets/Events/newbiznece2.jpg"
 import buzzup2 from "../../Assets/Events/pd-cover-page.webp"
+import speaker from "../../Assets/Images/speaker.jpg"
 const Events = () => {
   return (
     <section id="Events" className="container">
@@ -20,7 +21,7 @@ const Events = () => {
         <p>Buzz-Up is an online live session where a host conducts an interview with an accomplished entrepreneur, to gain insights and advice on entrepreneurship.</p>
         <br/>
         
-        <button id="Registerbutton">Register</button>
+        <button id="Registerbutton">Coming soon</button>
         
     </div>
   
@@ -31,13 +32,13 @@ const Events = () => {
 <div className='Upcomingevents'>
     <div className='Description'>
         <h3>Speaker Session</h3>
-        <p>We conduct a number of workshops, speaker sessions, inter-collegiate and national level competitions and also support student-run ventures.</p>
+        <p>E-Cell conducts various speaker sessions throughout the year. The sessions feature reputed professionals of their respective industries and provide insights to the world of businesses and give advice to the young students for their future endeavors.</p>
         <br/>
         <button id="Registerbutton">Coming soon</button>
         
     </div>
     <div className ="Eventsimg">
-        <img src = {buzzup}></img>
+        <img src = {speaker}></img>
     </div> 
 </div>
 <div className='Upcomingevents'>

@@ -45,6 +45,7 @@
 body{
     background-color:var(--backgroundColor);
     overflow-x: hidden;
+    overflow: hidden;
 }
 a, button, .btn {
   transition: 0.3s all !important;

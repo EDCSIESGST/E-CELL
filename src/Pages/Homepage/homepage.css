@@ -4,10 +4,13 @@
     display:flex;
     justify-content: center;
     align-items: center;
- 
+ ;
 }
-.video-container iframe {
+
+Video{
+    padding-top: 0px;
     border-radius: var(--borderRadius);
+
 }
 #About{
     display: flex;
@@ -278,6 +281,9 @@ text-align: justify;
     .Stat {
         width: calc(25% - 20px); /* Four items per row with spacing */
         margin: 10px;
+    }
+    video{
+        height: 700px;
     }
     
 }
