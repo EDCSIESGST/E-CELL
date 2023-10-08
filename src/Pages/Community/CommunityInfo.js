@@ -1,6 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-
+import { Link } from 'react-router-dom';
 const CommunityInfo = () => {
     return ( 
         <div className="CommunityInfo">
@@ -10,27 +10,30 @@ const CommunityInfo = () => {
                     <div className="ComInfo">
                         <TabPanel>
                             <h2>Entrepreneurship 101</h2>
-                            <p>Entrepreneurship cell is a non-profit student's organization dedicated to promoting the spirit of entrepreneurship among students throughout India. The basic aim of E-Cell is to encourage college-level students today to start their own enterprise. Hundreds of rural as well as urban colleges have established e-cells. 
-                            <br /><br />
-                            Moreover over 70,000 students participate in organizing e-cell activities in India. Some noteworthy examples are – IIT Bombay, IIT Kharagpur, Bits Pillani, VJTI, SPIT, etc.</p>
-                            <button>Learn more</button>
+                            <p>Discover the foundational insights of entrepreneurship through our Entrepreneurship 101 course. This course is designed to eliminate ambiguities and guide you in mastering the art of business creation and management, armed with a comprehensive dictionary and much more.
+ 
+                        </p>
+                     <Link to="https://violet-eye-647.notion.site/Entrepreneurship-101-baac12054f364819b77a8e7d3807e44b?pvs=4" target='_blank'>
+      <button>Learn more</button></Link>
                         </TabPanel>
                         <TabPanel>
                             <h2>Resource Library</h2>
-                            <p>Moreover over 70,000 students participate in organizing e-cell activities in India. Some noteworthy examples are – IIT Bombay, IIT Kharagpur, Bits Pillani, VJTI, SPIT, etc.</p>
-                            <button>Learn more</button>
+                            <p>Dive into our meticulously curated Resource Library which houses a diverse range of books, free courses, websites, podcasts, and blogs. Brought to you by the dedicated team at E-CELL SIESGST, this ever-evolving library is here to assist you on your entrepreneurial journey.</p>
+                            <Link to="https://violet-eye-647.notion.site/Resource-Library-9732a259b7dc4417bcb28ae343847e7d?pvs=4
+" target='_blank'> <button>Explore more</button></Link>
                         </TabPanel>
                         <TabPanel>
-                            <h2>Startup Bundle</h2>
-                            <p>Entrepreneurship cell is a non-profit student's organization dedicated to promoting the spirit of entrepreneurship among students throughout India. The basic aim of E-Cell is to encourage college-level students today to start their own enterprise. Hundreds of rural as well as urban colleges have established e-cells. </p>
-                            <button>Learn more</button>
+                            <h2>Build with us</h2>
+                            <p>Engage in our exclusive Build With Us program, where you get to test, validate and refine your ideas through various tasks. From ideation to evaluation, immerse yourself in a research-driven environment and pave your way into our Startup Cohort </p>
+                            <Link to="https://violet-eye-647.notion.site/Build-with-us-c6429eed788d4225a4ed841d2e3ae8bb
+" target='_blank'>      <button>Learn more</button></Link>
                         </TabPanel>
                     </div>
                     <div className="ComTabs">
                     <TabList>
                         <Tab>Entrepreneurship 101</Tab>
                         <Tab>Resource Library</Tab>
-                        <Tab>Startup Bundle</Tab>
+                        <Tab>Build with us</Tab>
                        
                     </TabList>
                     </div>

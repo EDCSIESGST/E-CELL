@@ -6,30 +6,29 @@ const CommunityPerks = () => {
 
             <div className="PerksCards">
                 <div className="PerkCard">
-                    <h3>Foster Entrepreneurial Mindset</h3>
+                    <h3>Learn</h3>
                     <p>
-                    When you join E-Cell SIES GST Community, you're not just signing up for a club; you're embarking on an entrepreneurial journey. The community offers various programs like Founder's Talk, AMA (Ask Me Anything) Sessions, and E-Mentorship to cultivate an entrepreneurial mindset. 
-                    <br />
-                    <br />
-                    These programs provide insights into the startup world, teach you how to think creatively, and encourage you to take calculated risks. By fostering this mindset, E-Cell aims to prepare you for the challenges and opportunities that come with entrepreneurship.
+                    Embark on an enriching entrepreneurial voyage with E-Cell SIES GST Community. Our Entrepreneurship 101 course is your gateway to building a robust foundation for your innovative endeavors.
+            
                     </p>
                 </div>
                 <div className="PerkCard">
-                    <h3>Improved Interpersonal Skills</h3>
+                    <h3>Build</h3>
                     <p>
-                    When you join E-Cell SIES GST Community, you're not just signing up for a club; you're embarking on an entrepreneurial journey. The community offers various programs like Founder's Talk, AMA (Ask Me Anything) Sessions, and E-Mentorship to cultivate an entrepreneurial mindset. 
-                    <br />
-                    <br />
-                    These programs provide insights into the startup world, teach you how to think creatively, and encourage you to take calculated risks. By fostering this mindset, E-Cell aims to prepare you for the challenges and opportunities that come with entrepreneurship.
+                    We empower you to transform your ideas into reality and refine them to their full potential. Our comprehensive support includes:
+Access to a resource library
+Entrepreneurship 101 course
+"Build with Us" program
+Join us and be a part of the movement that brings the Next Big Thing to life!
+
                     </p>
                 </div>
                 <div className="PerkCard">
-                    <h3>Network With Startup Ecosystem</h3>
+                    <h3>Scale</h3>
                     <p>
-                    When you join E-Cell SIES GST Community, you're not just signing up for a club; you're embarking on an entrepreneurial journey. The community offers various programs like Founder's Talk, AMA (Ask Me Anything) Sessions, and E-Mentorship to cultivate an entrepreneurial mindset. 
-                    <br />
-                    <br />
-                    These programs provide insights into the startup world, teach you how to think creatively, and encourage you to take calculated risks. By fostering this mindset, E-Cell aims to prepare you for the challenges and opportunities that come with entrepreneurship.
+         
+Elevate your ventures with our expert guidance and industry connections. We're committed to providing the incubation support you need to validate and scale your ideas successfully, ushering you towards a trajectory of impactful entrepreneurship.
+
                     </p>
                 </div>
             </div>
