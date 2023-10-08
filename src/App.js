@@ -12,7 +12,7 @@ import Eventsbrief from './Pages/Eventsbrief/Eventsbrief'
 import Home from "./Pages/Homepage/Home"
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 function App () {
   return (
