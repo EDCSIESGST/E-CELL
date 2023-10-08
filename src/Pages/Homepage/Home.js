@@ -5,7 +5,7 @@ import Stats from './Stats';
 import About from './About';
 import Events from './Events';
 import Socials from "./Socials.";
-import video from '../../Assets/video/Sequence 01_2.mp4'
+import video from "../../Assets/video/Sequence 01_2.mp4"
 import {Media, Video } from '@vidstack/player-react';
 function Home() {
 
