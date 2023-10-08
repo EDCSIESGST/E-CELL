@@ -156,7 +156,7 @@ const Team = () => (
       name="Ayush Patil"
       role="Tech Co-ord"
       imgSrc={ayush}
-      linkedin="https://www.linkedin.com/in/kaustubh-chavan/"
+      linkedin="https://www.linkedin.com/in/ayush-patil-3865b8227/"
     />
     <Member
       name="Aditya Rao"
