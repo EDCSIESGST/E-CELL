@@ -43,13 +43,18 @@
   }
   .navbar-toggler{
     width: auto;
-    height: 30px;
-    color: #fff;
+    height: 40px;
+    color:white
   }
   .navbar-toggler-icon{
     height: 30px;
-    color: #fff;
+    color:var(--primaryColor);
     border: #fff;
+  background-color: var(--backgroundColor)
+
+  }
+  #navs button{
+    color: wheat;
   }
   .nav-link{
     color: var(--linkColor);

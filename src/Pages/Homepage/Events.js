@@ -16,6 +16,18 @@ const Events = () => {
 <h2> Upcoming Events</h2>
 <br></br>
 <div className='Upcomingevents'>
+    <div className='Description'>
+        <h3>Speaker Session</h3>
+        <p>E-Cell conducts various speaker sessions throughout the year. The sessions feature reputed professionals of their respective industries and provide insights to the world of businesses and give advice to the young students for their future endeavors.</p>
+        <br/>
+   <Link to="https://lu.ma/phlljd3w" target='_blank'> <button id="Registerbutton">Register</button> </Link>
+        
+    </div>
+    <div className ="Eventsimg">
+        <img src = {speaker}></img>
+    </div> 
+</div>
+<div className='Upcomingevents'>
 
     <div className='Description'>
         <h3>Buzz Up</h3>
@@ -30,18 +42,7 @@ const Events = () => {
         <img src = {buzzup}></img>
     </div> 
 </div>
-<div className='Upcomingevents'>
-    <div className='Description'>
-        <h3>Speaker Session</h3>
-        <p>E-Cell conducts various speaker sessions throughout the year. The sessions feature reputed professionals of their respective industries and provide insights to the world of businesses and give advice to the young students for their future endeavors.</p>
-        <br/>
-   <Link to="https://lu.ma/phlljd3w" target='_blank'> <button id="Registerbutton">Register</button> </Link>
-        
-    </div>
-    <div className ="Eventsimg">
-        <img src = {speaker}></img>
-    </div> 
-</div>
+
 <div className='Upcomingevents'>
     <div className='Description'>
         <h3>Bizence</h3>
