@@ -6,6 +6,7 @@ import CommunityPerks from './CommunityPerks'
 import CommunityBanner from './CommunityBanner'
 import './community.css'
 import JoinCommunity from './JoinCommunity'
+import WhyCom from './WhyCom'
 
 const Community = () => {
   return (
@@ -14,7 +15,7 @@ const Community = () => {
         <div className="container">
 <CommunityBanner></CommunityBanner>
           <CommunityInfo></CommunityInfo>
-          
+          <WhyCom></WhyCom>
           <CommunityPerks></CommunityPerks>
           <JoinCommunity></JoinCommunity>
         </div>
