@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.69f663db.css",
-    "main.js": "/static/js/main.78a51de7.js",
+    "main.js": "/static/js/main.6a6b1f95.js",
     "static/media/Sequence 01_2.mp4": "/static/media/Sequence 01_2.6b52a8928743be4c8da4.mp4",
     "static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2021-22.docx.pdf": "/static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2021-22.docx.9f95fade5d243e837596.pdf",
     "static/media/newbizence1.jpg": "/static/media/newbizence1.a9b476c2159c755bf59c.jpg",
@@ -50,10 +50,10 @@
     "static/media/Steps.png": "/static/media/Steps.0439dd5e504e419d9714.png",
     "index.html": "/index.html",
     "main.69f663db.css.map": "/static/css/main.69f663db.css.map",
-    "main.78a51de7.js.map": "/static/js/main.78a51de7.js.map"
+    "main.6a6b1f95.js.map": "/static/js/main.6a6b1f95.js.map"
   },
   "entrypoints": [
     "static/css/main.69f663db.css",
-    "static/js/main.78a51de7.js"
+    "static/js/main.6a6b1f95.js"
   ]
 }
