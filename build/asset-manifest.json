@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed54fddd.css",
-    "main.js": "/static/js/main.0649861d.js",
+    "main.css": "/static/css/main.e65eaf7d.css",
+    "main.js": "/static/js/main.556757b8.js",
     "static/media/Sequence 01_2.mp4": "/static/media/Sequence 01_2.6b52a8928743be4c8da4.mp4",
     "static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2021-22.docx.pdf": "/static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2021-22.docx.9f95fade5d243e837596.pdf",
+    "static/media/banner.png": "/static/media/banner.f6d921519122e734ccdd.png",
     "static/media/newbizence1.jpg": "/static/media/newbizence1.a9b476c2159c755bf59c.jpg",
     "static/media/Screenshot 2023-10-07 at 10.45.30 PM.png": "/static/media/Screenshot 2023-10-07 at 10.45.30 PM.adc4a5328b80a21cceca.png",
     "static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2022-23.docx (1).pdf": "/static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2022-23.docx (1).378ff08f88bd8bfae78b.pdf",
@@ -49,11 +50,11 @@
     "static/media/Group 32.png": "/static/media/Group 32.cb73bc8440edb8cfa152.png",
     "static/media/Steps.png": "/static/media/Steps.0439dd5e504e419d9714.png",
     "index.html": "/index.html",
-    "main.ed54fddd.css.map": "/static/css/main.ed54fddd.css.map",
-    "main.0649861d.js.map": "/static/js/main.0649861d.js.map"
+    "main.e65eaf7d.css.map": "/static/css/main.e65eaf7d.css.map",
+    "main.556757b8.js.map": "/static/js/main.556757b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed54fddd.css",
-    "static/js/main.0649861d.js"
+    "static/css/main.e65eaf7d.css",
+    "static/js/main.556757b8.js"
   ]
 }
