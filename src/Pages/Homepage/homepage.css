@@ -1,5 +1,8 @@
 
-
+#bannerimg{
+width: 95%;
+border-radius: 5%;
+}
 .video-container{
     display:flex;
     justify-content: center;

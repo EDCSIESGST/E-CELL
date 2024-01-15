@@ -5,7 +5,7 @@ import Reports from './Pages/Reports/Reports'
 import Community from './Pages/Community/Community'
 import Team from './Pages/Team/team'
 import { HashRouter } from 'react-router-dom'
-
+import Bizence from './Pages/Bizence/Bizence'
 import './App.css';
 
 import Eventsbrief from './Pages/Eventsbrief/Eventsbrief'
@@ -25,7 +25,7 @@ function App () {
       <Route path='/EventsBrief' element={<Eventsbrief/>}></Route>
       <Route path='/Reports' element={<Reports/>}></Route>
       <Route path='/Team' element={<Team/>}></Route>
-    
+      <Route path='/Bizence' element={<Bizence/>}></Route>
     </Routes>
   
     <Footer />

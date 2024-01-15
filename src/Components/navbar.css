@@ -44,17 +44,18 @@
   .navbar-toggler{
     width: auto;
     height: 40px;
-    color:white
+    background-color: var(--primaryColor);
+    
   }
   .navbar-toggler-icon{
     height: 30px;
     color:var(--primaryColor);
-    border: #fff;
-  background-color: var(--backgroundColor)
+    border: var(--primaryColor);
+  background-color: var(--primaryColor)
 
   }
   #navs button{
-    color: wheat;
+    color: white;
   }
   .nav-link{
     color: var(--linkColor);

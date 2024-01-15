@@ -1,7 +1,7 @@
 import React from 'react'
 import insta from "../../Assets/Logos/icons8-instagram-96.png"
-import twitter from "../../Assets/Logos/icons8-x-96 (1).png"
-import medium from "../../Assets/Logos/icons8-medium-96 (1).png"
+import twitter from "../../Assets/Logos/icons8-twitter-96 - Copy.png"
+import medium from "../../Assets/Logos/icons8-medium-96 (2) - Copy.png"
 import linkedin from "../../Assets/Logos/icons8-linked-in-96.png"
 import whatsapp from '../../Assets/Logos/icons8-whatsapp-96 (1).png'
 import { Link } from 'react-router-dom'

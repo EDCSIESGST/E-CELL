@@ -23,6 +23,7 @@ const Reports = () => {
  type="application/pdf"></embed>
           </div>
         </div>
+        
       </section>
     </div>
   );
