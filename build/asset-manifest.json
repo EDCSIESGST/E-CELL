@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.57edf9ca.css",
-    "main.js": "/static/js/main.622198bf.js",
+    "main.css": "/static/css/main.571378dd.css",
+    "main.js": "/static/js/main.7fba1c4b.js",
     "static/media/Sequence 01_2.mp4": "/static/media/Sequence 01_2.6b52a8928743be4c8da4.mp4",
     "static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2021-22.docx.pdf": "/static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2021-22.docx.9f95fade5d243e837596.pdf",
     "static/media/banner.png": "/static/media/banner.f6d921519122e734ccdd.png",
@@ -22,12 +22,13 @@
     "static/media/IMG_20230528_194720(1).jpg": "/static/media/IMG_20230528_194720(1).b142dc8f0fe543595791.jpg",
     "static/media/DHA_2265 (1).jpg": "/static/media/DHA_2265 (1).46695ad7bdfd7b9bc10f.jpg",
     "static/media/img-8454.webp": "/static/media/img-8454.32cd06faacf05c651a56.webp",
+    "static/media/White and Blue Modern Linkedin Profile Picture.png": "/static/media/White and Blue Modern Linkedin Profile Picture.eca849ff736b84ccdf4f.png",
     "static/media/Frame 40.png": "/static/media/Frame 40.6cb0994a50ea63fdffc9.png",
     "static/media/Screenshot 2023-10-07 142044.png": "/static/media/Screenshot 2023-10-07 142044.eac710cbf00c3bea3075.png",
     "static/media/WhatsApp Image 2023-10-07 at 10.23.01 PM.jpeg": "/static/media/WhatsApp Image 2023-10-07 at 10.23.01 PM.178527aa6e2e852c0c53.jpeg",
+    "static/media/IMG-20240117-WA0002.jpg": "/static/media/IMG-20240117-WA0002.248904913c3c7599b42d.jpg",
     "static/media/IMG_20230807_224249.jpg": "/static/media/IMG_20230807_224249.46fa1e3fd21881c87a4d.jpg",
     "static/media/Marketing_DSC0033 (3).jpg": "/static/media/Marketing_DSC0033 (3).1ef4bc6d818eb5e767ff.jpg",
-    "static/media/Harsh_META.jpg": "/static/media/Harsh_META.6bc6fa03501cbfb0c1ad.jpg",
     "static/media/IMG-20230718-WA0001.jpg": "/static/media/IMG-20230718-WA0001.01910f5cb43aecfcbc63.jpg",
     "static/media/WhatsApp Image 2023-10-07 at 3.47.27 PM.jpeg": "/static/media/WhatsApp Image 2023-10-07 at 3.47.27 PM.0238815510cb7ec149a0.jpeg",
     "static/media/54950_prev_ui.png": "/static/media/54950_prev_ui.8637e82cc5bfb7570150.png",
@@ -50,11 +51,11 @@
     "static/media/Group 32.png": "/static/media/Group 32.cb73bc8440edb8cfa152.png",
     "static/media/Steps.png": "/static/media/Steps.0439dd5e504e419d9714.png",
     "index.html": "/index.html",
-    "main.57edf9ca.css.map": "/static/css/main.57edf9ca.css.map",
-    "main.622198bf.js.map": "/static/js/main.622198bf.js.map"
+    "main.571378dd.css.map": "/static/css/main.571378dd.css.map",
+    "main.7fba1c4b.js.map": "/static/js/main.7fba1c4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.57edf9ca.css",
-    "static/js/main.622198bf.js"
+    "static/css/main.571378dd.css",
+    "static/js/main.7fba1c4b.js"
   ]
 }
