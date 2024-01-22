@@ -5,6 +5,7 @@ import Stats from './Stats';
 import About from './About';
 import Events from './Events';
 import Socials from "./Socials.";
+import Councilp from "../../Assets/Images/IMG-20240117-WA0002.jpg"
 import video from "../../Assets/video/Sequence 01_2.mp4"
 import Banner from "../../Assets/Images/banner.png"
 import whatsapp from "../../Assets/Logos/icons8-whatsapp-40.png"
@@ -29,6 +30,14 @@ function Home() {
       <About />
       <Stats />
       <Events />
+      <section id='Councilphoto' >
+<h1>Council 2023-2024</h1>
+<br></br>
+
+<div id='imgcouncil' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <img src ={Councilp}></img>
+</div>
+     </section>
       <Socials />
       <Newsletter />
       <section id="Video" className="container">

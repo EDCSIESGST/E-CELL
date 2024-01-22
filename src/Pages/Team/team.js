@@ -22,7 +22,7 @@ import sakshi from "../../Assets/Team Photos/Sakshi Sakhare.jpg"
 import mokal from "../../Assets/Team Photos/IMG_4460_(1).jpg"
 import kiran from "../../Assets/Team Photos/IMG-20231008-WA0001.png"
 import rao from "../../Assets/Team Photos/aditya_rao.jpeg"
-import pasi from "../../Assets/Team Photos/Harshkumar/Harsh_META.jpg"
+import pasi from "../../Assets/Team Photos/Harshkumar/White and Blue Modern Linkedin Profile Picture.png"
 import piyush from "../../Assets/Images/piyush.jpg"
 import ayush from "../../Assets/Team Photos/Ayush/1696695822278.jpg"
 const Member = ({ name, role, imgSrc, linkedin }) => (

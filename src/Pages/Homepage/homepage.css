@@ -35,12 +35,20 @@ border-radius: 5%;
     padding-top: 0%;
   }
   
+  #Councilphoto h1{
+    text-align: center;
+  }
   .button-9:disabled {
     cursor: default;
   }
   
   .button-9:focus {
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+  #Councilphoto img{
+    height: auto;
+    width: 90%;
+    border-radius: 2%;
   }
 .video-container{
     display:flex;
