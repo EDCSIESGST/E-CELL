@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom'
 import Banner from "../../Assets/Images/banner.png"
 import './timeline.css'
 import bizence from "../../Assets/Events/bizence.webp"
+import EventsAndShows from './timeline'
+import Gallery from './Imagegallery'
+import why from './why'
+import "../Homepage/homepage.css"
+import Yathartha from "../../Assets/Logos/_e3f1ca45-5c3b-4b19-8d9d-230ef152e80e-removebg-preview.png"
+import Timeline from './timeline2'
+import Carousel from './Carousel'
+import RegistrationForm from './Register'
 const Bizence = () => {
   return (
     <div>
@@ -17,47 +25,25 @@ const Bizence = () => {
 <section id ="Whatsappbut"  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <Link to ="https://chat.whatsapp.com/KrvvgTrbob62iMeAWQXx3V"> <button class="button-9" role="button">Join for Updates</button>
     </Link>    </section>
-    <section id='what is bizence'>
+    <why/>
+    <br></br>
+   <Timeline/>
+   <br></br>
+    <section id = "About" className="container">
 
-    </section>
-    <main>
-  <section className='timeline'>
-  <img src={bizence}></img>
-    <div class="text">
-      <h2>I just love</h2>
-      <p>These scroll driven animations</p>
-    </div>
-  </section>
-  <section className='timeline'>
-  <img src={bizence}></img>
-    <div class="text">
-      <h2>And the fact that</h2>
-      <p>combined with scroll-snap</p>
-    </div>
-  </section>
-  <section className='timeline'>
-  <img src={bizence}></img>
-    <div class="text">
-      <h2>These can create some cool effects</h2>
-      <p>When entering or leaving the scroll view</p>
-    </div>
-  </section>
-  <section>
-  <img src={bizence}></img>
-    <div class="text">
-      <h2>I really think this opens a lot of possibilities</h2>
-      <p>For a performant web, with a bit of</p>
-    </div>
-  </section>
-  <section className='timeline'>
-  <img src={bizence}></img>
-    <div class="text">
-      <h2>Extra ooooomph</h2>
-      <p>(yes, i'm running a bit out of inspiration here)</p>
-    </div>
-  </section>
-  
-</main>
+<div id="row"  data-aos="fade-right">
+    <h2>Why Yathartha?</h2>
+    <br/>
+    <p>Initated in 2010, the Entrepreneurship Cell of SIESGST is a non profit student organisation dedicated to promoting the spirit of entrepreneurship among the students of India. To achieve this, we conduct events which help spread our message. We also have an incubation team which helps advise and foster the ideas of students who dream of building their own startup.</p>
+</div>
+
+<div id ="aboutimg" data-aos="fade-left">
+  <img src = {Yathartha} />
+</div>
+
+</section> 
+<Carousel/>
+ <RegistrationForm/>
     </div>
   )
 }

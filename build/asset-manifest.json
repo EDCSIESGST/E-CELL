@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.571378dd.css",
-    "main.js": "/static/js/main.7fba1c4b.js",
+    "main.css": "/static/css/main.104d87f3.css",
+    "main.js": "/static/js/main.ad79a5a3.js",
     "static/media/Sequence 01_2.mp4": "/static/media/Sequence 01_2.6b52a8928743be4c8da4.mp4",
     "static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2021-22.docx.pdf": "/static/media/Entrepreneurship_Development_Cell_(EDC)_SIESGST_Student_Activities_for_the_year_2021-22.docx.9f95fade5d243e837596.pdf",
     "static/media/banner.png": "/static/media/banner.f6d921519122e734ccdd.png",
@@ -24,6 +24,7 @@
     "static/media/img-8454.webp": "/static/media/img-8454.32cd06faacf05c651a56.webp",
     "static/media/White and Blue Modern Linkedin Profile Picture.png": "/static/media/White and Blue Modern Linkedin Profile Picture.eca849ff736b84ccdf4f.png",
     "static/media/Frame 40.png": "/static/media/Frame 40.6cb0994a50ea63fdffc9.png",
+    "static/media/_e3f1ca45-5c3b-4b19-8d9d-230ef152e80e-removebg-preview.png": "/static/media/_e3f1ca45-5c3b-4b19-8d9d-230ef152e80e-removebg-preview.37a87c81290ee6637110.png",
     "static/media/Screenshot 2023-10-07 142044.png": "/static/media/Screenshot 2023-10-07 142044.eac710cbf00c3bea3075.png",
     "static/media/WhatsApp Image 2023-10-07 at 10.23.01 PM.jpeg": "/static/media/WhatsApp Image 2023-10-07 at 10.23.01 PM.178527aa6e2e852c0c53.jpeg",
     "static/media/IMG-20240117-WA0002.jpg": "/static/media/IMG-20240117-WA0002.248904913c3c7599b42d.jpg",
@@ -51,11 +52,11 @@
     "static/media/Group 32.png": "/static/media/Group 32.cb73bc8440edb8cfa152.png",
     "static/media/Steps.png": "/static/media/Steps.0439dd5e504e419d9714.png",
     "index.html": "/index.html",
-    "main.571378dd.css.map": "/static/css/main.571378dd.css.map",
-    "main.7fba1c4b.js.map": "/static/js/main.7fba1c4b.js.map"
+    "main.104d87f3.css.map": "/static/css/main.104d87f3.css.map",
+    "main.ad79a5a3.js.map": "/static/js/main.ad79a5a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.571378dd.css",
-    "static/js/main.7fba1c4b.js"
+    "static/css/main.104d87f3.css",
+    "static/js/main.ad79a5a3.js"
   ]
 }

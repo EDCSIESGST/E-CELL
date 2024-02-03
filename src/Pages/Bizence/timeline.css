@@ -1,164 +1,180 @@
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Poppins&display=swap');
+:root {
+  --containerColor: #0F151C;
+  --textColor: #aacbf4;
+  --linkColor: #fff;
+  --primaryColor: #0668CB;
+  --secondaryColor: #1DCEEF;
+  --complementaryColor: rgb(255, 255, 148);
+  --DefaultFont: 'League Spartan', sans-serif;
+}
 
-@layer base, snapping, keyframes;
+body {
+  margin: 0;
+  padding: 0;
+  font-family:var(--DefaultFont);
+  background-color: var(--containerColor);
+  color: var(--textColor);
+}
+section .events h1{
+  text-align: center;
+}
+#timeline {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "main main" "event event";
+  background-image: url(https://s3.ca-central-1.amazonaws.com/image-web-frankie/Music+show.jpg);
+  background-size: cover;
+  background-position: center;
+height: auto;
+}
+section .leftBox .content h1{
+  font-size: 30px;
+}
 
-@layer keyframes {
-  /* The keyframes */
-  @keyframes inAndOut {
-    entry 0% {
-      opacity: 0;
-      transform: translateX(-50%);
-    }
-    entry 100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
 
-    exit 0% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    exit 100% {
-      opacity: 0;
-      transform: translateX(-50%);
-    }
-  }
 
-  @keyframes inAndOutReverse {
-    entry 0% {
-      opacity: 0;
-      transform: translateX(50%);
-    }
-    entry 100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
+.leftBox {
+  grid-area: main;
+  padding: 50px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
 
-    exit 0% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    exit 100% {
-      opacity: 0;
-      transform: translateX(50%);
-    }
-  }
+section .leftBox .content {
+  color: #fff;
+  background-color:var(--containerColor);
+  padding: 20px;
+  transition: 0.5s;
+}
 
-  /* The vertical keyframes */
-  @keyframes inAndOutVertical {
-    entry 0% {
-      opacity: 0;
-      transform: translateY(50%);
-    }
-    entry 100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
+section .leftBox .content:hover {
+  background-color: rgb(10, 77, 141);
+}
 
-    exit 0% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    exit 100% {
-      opacity: 0;
-      transform: translateY(-50%);
-    }
+
+
+section .leftBox .content p {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+section .events {
+  grid-area: event;
+  
+  box-sizing: border-box;
+}
+
+section .events ul {
+  margin: 0;
+  padding: 40px;
+  list-style: none;
+}
+
+section .events ul li {
+  background-color: var(--containerColor);
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 0;
+  grid-template-areas: "time time" "detail detail";
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  section .events ul li {
+    grid-template-areas: "time detail" "time detail";
   }
 }
 
-@layer snapping {
-  main {
-    width: 100%;
-    height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    scroll-snap-type: y mandatory;
-    & section {
-      scroll-snap-align: start;
-    }
-  }
-
- .timeline img {
-    flex: 0 0 50%;
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-
-    animation: linear inAndOut;
-    animation-timeline: view();
-  }
-
-  .timeline{
-    display: flex;
-    align-items: center;
-    min-height: 300px;
-    height: 50vh;
-    &:nth-child(even) {
-      background: black;
-      color: white;
-      flex-direction: row-reverse;
-      & img {
-        animation-name: inAndOutReverse;
-      }
-    }
-  }
-
-  .text {
-    padding: 4rem;
-    flex: 0 0 50vw;
-    animation: linear inAndOutVertical;
-    animation-timeline: view();
-  }
-
-  @media (width <= 700px) {
-    .timeline {
-      height: 100dvh;
-      align-items: stretch;
-      flex-wrap: wrap;
-      & img,
-      .text {
-        flex: 0 0 100%;
-        animation-name: inAndOutVertical;
-      }
-    }
-   .timeline img {
-      height: 60dvh;
-      flex-grow: 1;
-    }
-    .text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 40dvh;
-      padding: 0.6rem;
-    }
-  }
+section .events ul li .time {
+  grid-area: time;
+  position: relative;
+  padding: 8%;
+  background-color:var(--primaryColor);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: 0.5s;
 }
 
-@layer base {
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
+section .events ul li:hover .time {
+  background-color: var(--primaryColor);
+}
 
-  body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.2rem;
+section .events ul li .time h2 {
+  margin: 0;
+  padding: 0;
+  color: var(--textColor);
+  font-size: 20px;
+
+}
+
+section .events ul li .time h2 span {
+  font-size: 30px;
+}
+
+section .events ul li .details {
+  grid-area: detail;
+  padding: 20px 20px 32px;
+  background-color: var(--containerColor);
+  box-sizing: border-box;
+}
+
+section .events ul li .details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  color:white;
+}
+
+section .events ul li .details p {
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+section .events ul li .details a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 2px solid #262626;
+  margin-top: 16px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+section .events ul li .details a:hover {
+  background-color:var(--primaryColor);
+  color: #fff;
+  border-color:var(--linkColor);
+}
+@media (min-width: 1200px) {
+  #timeline {
+    grid-template-areas: "main event" "main event";
+  }
+  section .leftBox .content h1 {
     margin: 0;
     padding: 0;
+    font-size: 50px;
+   
   }
-
-  h2 {
-    font-family: "Architects Daughter", cursive;
-    font-size: 2rem;
-    letter-spacing: 0.05em;
-    margin: 0 0 1rem;
+  section .leftBox .content {
+    
+    padding: 50px;
+    
   }
+  .leftBox {
+    
+    padding: 100px;
+    
+  }
+  
 }
-
