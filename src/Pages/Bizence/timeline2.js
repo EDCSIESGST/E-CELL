@@ -18,15 +18,15 @@ function Timeline() {
       <br></br>
       <div className="timeline">
         <TimelineItem side="left" title="Registrations 📝" content="2:00pm - 3:00pm" animation="fade-up" />
-        <TimelineItem side="right" title="Kick Off Event 🚀" content="Lorem ipsum..." animation="fade-up" />
-        <TimelineItem side="left" title="Snacks and Tea☕" content="Lorem ipsum..." animation="fade-up" />
-        <TimelineItem side="right" title="Ideation and BMC Workshop💡" content="Lorem ipsum..." animation="fade-up" />
-        <TimelineItem side="left" title="Dinner🍽️" content="Lorem ipsum..." animation="fade-up" />
-        <TimelineItem side="right" title="Build 🛠️" content="Lorem ipsum..." animation="fade-up" />
-        <TimelineItem side="left" title="Mentoring 🤝" content="Lorem ipsum..." animation="fade-up" />
-        <TimelineItem side="right" title="Lunch 🍽️" content="Lorem ipsum..." animation="fade-up" />
-        <TimelineItem side="left" title="Presentation Round 🎤" content="Lorem ipsum..." animation="fade-up" />
-        <TimelineItem side="right" title="Winners and Felicitation🏆" content="Lorem ipsum..." animation="fade-up" />
+        <TimelineItem side="right" title="Kick Off Event 🚀" content="3:30pm - 4:30pm" animation="fade-up" />
+        <TimelineItem side="left" title="Snacks and Tea☕" content="4:30pm -5:30pm" animation="fade-up" />
+        <TimelineItem side="right" title="Ideation and BMC Workshop💡" content="5:45pm -7:45pm" animation="fade-up" />
+        <TimelineItem side="left" title="Dinner🍽️" content="8:00pm-9:00pm" animation="fade-up" />
+        <TimelineItem side="right" title="Build 🛠️" content="9:00pm -11:00pm" animation="fade-up" />
+        <TimelineItem side="left" title="Mentoring 🤝" content="11:00pm -12:00pm" animation="fade-up" />
+        <TimelineItem side="right" title="Lunch 🍽️" content=":00pm -4:00pm" animation="fade-up" />
+        <TimelineItem side="left" title="Presentation Round 🎤" content="1:00pm -4:00pm" animation="fade-up" />
+        <TimelineItem side="right" title="Winners and Felicitation🏆" content="4:30ppm -5:30pm" animation="fade-up" />
       </div>
     </div>
   );

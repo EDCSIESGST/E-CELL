@@ -11,6 +11,8 @@ import "../Homepage/homepage.css"
 import Yathartha from "../../Assets/Logos/_e3f1ca45-5c3b-4b19-8d9d-230ef152e80e-removebg-preview.png"
 import Timeline from './timeline2'
 import Carousel from './Carousel'
+import "./bizence.css"
+import post from  "../../Assets/Events/Bizenceimg/_4c0f5dc0-c805-4135-bdaf-bcd5ee37e55c-removebg-preview.png"
 import RegistrationForm from './Register'
 const Bizence = () => {
   return (
@@ -25,25 +27,27 @@ const Bizence = () => {
 <section id ="Whatsappbut"  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <Link to ="https://chat.whatsapp.com/KrvvgTrbob62iMeAWQXx3V"> <button class="button-9" role="button">Join for Updates</button>
     </Link>    </section>
+    <section id = "About" className="container">
+
+<div id="row"  data-aos="fade-right">
+    <h2>What is Bizence?</h2>
+    <br/>
+    <p>It is a national level Business plan competition. It is an experience which aims to incentivize creative thinking and promote entrepreneurship culture by providing workshops, hands-on experiences ending with a B plan competition where CEO’s and Founders of various companies judge the ideas of the participants.</p>
+</div>
+
+<div id ="aboutis" data-aos="fade-left">
+  <img src = {post} />
+</div>
+
+</section> 
     <why/>
     <br></br>
    <Timeline/>
    <br></br>
-    <section id = "About" className="container">
-
-<div id="row"  data-aos="fade-right">
-    <h2>Why Yathartha?</h2>
-    <br/>
-    <p>Initated in 2010, the Entrepreneurship Cell of SIESGST is a non profit student organisation dedicated to promoting the spirit of entrepreneurship among the students of India. To achieve this, we conduct events which help spread our message. We also have an incubation team which helps advise and foster the ideas of students who dream of building their own startup.</p>
-</div>
-
-<div id ="aboutimg" data-aos="fade-left">
-  <img src = {Yathartha} />
-</div>
-
-</section> 
+    <br></br>
 <Carousel/>
  <RegistrationForm/>
+ 
     </div>
   )
 }
