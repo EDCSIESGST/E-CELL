@@ -47,7 +47,16 @@ const Bizence = () => {
     <br></br>
 <Carousel/>
  <RegistrationForm/>
- 
+ <iframe
+      src="https://lu.ma/embed-checkout/evt-Qgt8KSFBPonnAnv"
+      width="100%"
+      height="500px"
+      frameBorder="0"
+      style={{ border: '1px solid #bfcbda88', borderRadius: '4px' }}
+      allowFullScreen
+      aria-hidden="false"
+      tabIndex="0"
+    ></iframe>
     </div>
   )
 }
