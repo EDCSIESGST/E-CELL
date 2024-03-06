@@ -16,6 +16,12 @@ h1{
     align-items: center;
 }
 }
+#bizencepage{
+    background-color:#02041a;
+}
+.mt-5{
+    background-color: aqua;
+}
 @media only screen and (min-width: 992px){
     #aboutis img{
         width: 100%;

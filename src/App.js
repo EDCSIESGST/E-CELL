@@ -7,7 +7,9 @@ import Team from './Pages/Team/team';
 import Bizence from './Pages/Bizence/Bizence';
 import Eventsbrief from './Pages/Eventsbrief/Eventsbrief';
 import Home from './Pages/Homepage/Home';
-import Navbar from './Components/Navbar';
+<li className="nav-item">
+<Link className="nav-link" to="#banner">Home</Link>
+</li>
 import Footer from './Components/Footer';
 import { Route } from 'react-router-dom';
 import AOS from 'aos';
@@ -24,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <Navbar />
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Startups" element={<Startups />} />

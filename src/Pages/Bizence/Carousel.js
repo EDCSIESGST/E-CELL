@@ -2,13 +2,13 @@ import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import image1 from "../../Assets/Events/Bizenceimg/IMG_9998.jpg"
+// import image1 from "../../Assets/Events/Bizenceimg/IMG_9998.jpg"
 
-import image2 from "../../Assets/Events/Bizenceimg/IMG_9720.jpg"
+// import image2 from "../../Assets/Events/Bizenceimg/IMG_9720.jpg"
 
-import image3 from "../../Assets/Events/Bizenceimg/IMG_9924.jpg"
+// import image3 from "../../Assets/Events/Bizenceimg/IMG_9924.jpg"
 
-import image4 from "../../Assets/Events/Bizenceimg/IMG_9989.jpg"
+// import image4 from "../../Assets/Events/Bizenceimg/IMG_9989.jpg"
 
 
 import 'swiper/css';

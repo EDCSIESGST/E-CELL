@@ -1,23 +1,28 @@
 import React from 'react'
 import "../../Pages/Homepage/homepage.css"
 import { Link } from 'react-router-dom'
-import Banner from "../../Assets/Images/banner.png"
+import Banner from "./Untitled-4 (2).png"
 import './timeline.css'
-import bizence from "../../Assets/Events/bizence.webp"
+
 import EventsAndShows from './timeline'
 import Gallery from './Imagegallery'
 import why from './why'
 import "../Homepage/homepage.css"
-import Yathartha from "../../Assets/Logos/_e3f1ca45-5c3b-4b19-8d9d-230ef152e80e-removebg-preview.png"
 import Timeline from './timeline2'
 import Carousel from './Carousel'
 import "./bizence.css"
-import post from  "../../Assets/Events/Bizenceimg/_4c0f5dc0-c805-4135-bdaf-bcd5ee37e55c-removebg-preview.png"
+
 import RegistrationForm from './Register'
+import Tracks from './Tracks'
+import Faq from './Faq'
+
+import PrizeSection from './prizes'
+import rocket from "./"
+import SponsorSection from './sponsors'
 const Bizence = () => {
   return (
-    <div>
-       <section id ="banner" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <div id ="bizencepage">
+       <section id ="banner" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',}}>
         <img id='bannerimg' src ={Banner}></img>
        
 
@@ -25,7 +30,7 @@ const Bizence = () => {
 
       </section>
 <section id ="Whatsappbut"  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-    <Link to ="https://chat.whatsapp.com/KrvvgTrbob62iMeAWQXx3V"> <button class="button-9" role="button">Join for Updates</button>
+    <Link to ="https://chat.whatsapp.com/KrvvgTrbob62iMeAWQXx3V"> <button class="button-9" role="button">Apply with Unstop</button>
     </Link>    </section>
     <section id = "About" className="container">
 
@@ -36,27 +41,22 @@ const Bizence = () => {
 </div>
 
 <div id ="aboutis" data-aos="fade-left">
-  <img src = {post} />
+  <img src = {rocket} />
 </div>
 
 </section> 
+<Tracks/>
     <why/>
     <br></br>
    <Timeline/>
    <br></br>
-    <br></br>
+    <br></br><highlight/>
 <Carousel/>
- <RegistrationForm/>
- <iframe
-      src="https://lu.ma/embed-checkout/evt-Qgt8KSFBPonnAnv"
-      width="100%"
-      height="500px"
-      frameBorder="0"
-      style={{ border: '1px solid #bfcbda88', borderRadius: '4px' }}
-      allowFullScreen
-      aria-hidden="false"
-      tabIndex="0"
-    ></iframe>
+
+<Faq/>
+<br/>
+<SponsorSection/>
+
     </div>
   )
 }

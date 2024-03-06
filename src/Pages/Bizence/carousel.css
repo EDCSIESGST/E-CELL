@@ -15,9 +15,13 @@
   .swiper-slide img {
     display: block;
     width: 100%;
+    border-radius: 10px;
+    opacity: 0.5;
 
   }
   .swiper{
     overflow: hidden;
   }
- 
+ .swiper-slide-active img{
+opacity: 1;
+ }

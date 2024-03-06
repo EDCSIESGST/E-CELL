@@ -10,7 +10,7 @@ function Timeline() {
             <div className="timeline">
               <div className="timeline-content">
                 <div className="timeline-icon">
-                📝
+                
                 </div>
                 <h3 className="title">Registrations</h3>
                 <p className="description">12:00PM -1:00PM</p>
@@ -19,7 +19,7 @@ function Timeline() {
             <div className="timeline">
               <div className="timeline-content">
                 <div className="timeline-icon">
-                🚀
+                
                 </div>
                 <h3 className="title">Kick-off Event</h3>
                 <p className="description">1:00PM - 3:00PM</p>
@@ -34,7 +34,7 @@ function Timeline() {
             <div className="timeline">
               <div className="timeline-content">
                 <div className="timeline-icon">
-                🍵
+                
                 </div>
                 <h3 className="title">Snacks and Tea</h3>
                 <p className="description">12:00PM -1:00PM</p>
@@ -43,7 +43,7 @@ function Timeline() {
             <div className="timeline">
               <div className="timeline-content">
                 <div className="timeline-icon">
-                💡
+                
                 </div>
                 <h3 className="title">Ideation and BMC</h3>
                 <p className="description">1:00pm-3:00pm</p>
@@ -58,7 +58,7 @@ function Timeline() {
             <div className="timeline">
               <div className="timeline-content">
                 <div className="timeline-icon">
-                🍽️ 
+                
                 </div>
                 <h3 className="title">Dinner</h3>
                 <p className="description">12:00PM -1:00PM</p>
