@@ -13,7 +13,7 @@ const Eventsbrief = () => {
   return (
     <section id="Events" className="container">
     < div id ="Currentevents">
-<h2> Upcoming Events</h2>
+<h2> Events</h2>
 <br></br>
 <div className='Upcomingevents'>
 

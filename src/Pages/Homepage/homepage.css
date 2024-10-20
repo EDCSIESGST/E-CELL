@@ -60,7 +60,6 @@ border-radius: 20px;
 Video{
     padding-top: 0px;
     border-radius: var(--borderRadius);
-
 }
 #About{
     display: flex;
@@ -89,6 +88,7 @@ border: #0668CB;
     color:var(--buttonfont);
     font-family: var(--DefaultFont);
     font-size: 16px;
+    font-weight: 600;
    padding: 5px;
     width: 100px;
     height: 35px;
@@ -97,7 +97,8 @@ border: #0668CB;
 
 }
 #Registerbutton:hover{
-    color: var(--backgroundColor);
+    /* color: var(--backgroundColor); */
+    
 }
 #row{
     width: 60%;

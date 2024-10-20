@@ -13,11 +13,11 @@ const Events = () => {
   return (
     <section id="Events" className="container">
         < div id ="Currentevents">
-<h2> Upcoming Events</h2>
+<h2>EVENTS</h2>
 <br></br>
 <div className='Upcomingevents'>
     <div className='Description'>
-        <h3>Speaker Session</h3>
+        <h3>Speaker Sessions</h3>
         <p>E-Cell conducts various speaker sessions throughout the year. The sessions feature reputed professionals of their respective industries and provide insights to the world of businesses and give advice to the young students for their future endeavors.</p>
         <br/>
    <Link to="https://lu.ma/phlljd3w" target='_blank'> <button id="Registerbutton">Register</button> </Link>
