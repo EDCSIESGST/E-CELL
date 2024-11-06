@@ -2,9 +2,10 @@ import React from 'react';
 import "./team.css"
 import { Link } from 'react-router-dom';
 import chavan from "../../Assets/Team Photos/Frame 40.png"
+// import chavan from "src/Assets/Team Photos/Frame 40.png"
 import rishij from "../../Assets/Team Photos/IMG_3696.jpg"
 import jiya from "../../Assets/tEAM/Jiya.jpg"
-import arya from "../../Assets/tEAM/Arya (1).jpg"
+
 import nidhi from "../../Assets/tEAM/Nidhi (1).jpg"
 import Ved from "../../Assets/Team Photos/Ved Gawade/IMG_20220925_150151.jpg"
 import Anamika from "../../Assets/Team Photos/Anamika/IMG_20220803_155858_131.png"
@@ -20,11 +21,50 @@ import atharv from "../../Assets/Team Photos/Screenshot 2023-10-07 at 10.45.30â€
 import rajiv from "../../Assets/Team Photos/DHA_2265 (1).jpg"
 import sakshi from "../../Assets/Team Photos/Sakshi Sakhare.jpg"
 import mokal from "../../Assets/Team Photos/IMG_4460_(1).jpg"
-import kiran from "../../Assets/Team Photos/IMG-20231008-WA0001.png"
+// import kiran from "../../Assets/Team Photos/IMG-20231008-WA0001.png"
 import rao from "../../Assets/Team Photos/aditya_rao.jpeg"
 import pasi from "../../Assets/Team Photos/Harshkumar/White and Blue Modern Linkedin Profile Picture.png"
 import piyush from "../../Assets/Images/piyush.jpg"
-import ayush from "../../Assets/Team Photos/Ayush/1696695822278.jpg"
+
+import Rajneel from "../../Assets/Team_24-25/Rajneel_chougule/IMG_8814-removebg.jpg"
+// import om from "../../Assets/Team_24-25/OM_Revankar/image.jpg"
+
+//TEAM 24-25
+import arya from "../../Assets/Team_24-25/arya/IMG_20230222_213431.jpg"
+import ayush from "../../Assets/Team_24-25/Ayush_Patil/IMG_20230807_223319.jpg"
+import adarsh from "../../Assets/Team_24-25/Adarsh_Korade/1700593386497.jpg"
+import adithya from "../../Assets/Team_24-25/Adithya_Venkat/Adithya.png"
+import arya_m from "../../Assets/Team_24-25/Arya_Mishra/IMG-20241015-WA0043.jpg"
+import arya_p from "../../Assets/Team_24-25/Arya_Pawar/272858.jpg"
+import kiran from "../../Assets/Team_24-25/Kiran_Chinchawade/_storage_emulated_0_DCIM_Camera_IMG_20221224_130752.jpg"
+import mihir from "../../Assets/Team_24-25/Mihir_Panpatil/WhatsApp Image 2023-08-30 at 10.24.19.jpeg"
+import nadaa from "../../Assets/Team_24-25/Nadaa_Ahamed/e7b5f6bd-7e56-4627-b8c1-8e967d2218ea.jpg"
+// import ojas from ""
+import om from "../../Assets/Team_24-25/OM_Revankar/image.jpg"
+import rajneel from "../../Assets/Team_24-25/Rajneel_chougule/WhatsApp Image 2024-10-17 at 21.23.48_74642ad9.jpg"
+import ratul from "../../Assets/Team_24-25/Ratul_Raj/DSC_9239.jpg"
+import rithvik from "../../Assets/Team_24-25/Rithvik_Shetty/IMG_1226.JPG"
+// import sharli from ""
+import shravani from "../../Assets/Team_24-25/Shravani_shinde/shravani shinde picture.jpeg"
+import sudeepto from "../../Assets/Team_24-25/Sudeepto_Ghosh/IMG_20240728_172918_578.jpg"
+import yash_v from "../../Assets/Team_24-25/Yash Varma/yash_v.jpg"
+import vedant from "../../Assets/Team_24-25/Vedant_Thakur/WhatsApp Image 2024-08-25 at 11.28.46 AM.jpeg"
+import varun from "../../Assets/Team_24-25/Varun_Ubale_/WhatsApp Image 2024-10-17 at 21.33.58_c19aec7e.jpg"
+import yash_b from "../../Assets/Team_24-25/Yash_Bhujbal/IMG_1167.jpg"
+import praveen from "../../Assets/Team_24-25/Praveen_Shukla/IMG-20240903-WA0022.jpg"
+import muthushri from "../../Assets/Team_24-25/Muthushri_Pillai/IMG-20241006-WA0003.jpg"
+import tanishq from "../../Assets/Team_24-25/Tanishq_Thorat/IMG-20241005-WA0019.jpg"
+import priya from "../../Assets/Team_24-25/Priya_Darshini/google.android.apps.photos.jpg"
+import ojas from "../../Assets/Team_24-25/Ojas_Neve/ojas linkedin.jpeg"
+import sara from "../../Assets/Team_24-25/Sara_Bhalerao/WhatsApp Image 2024-10-23 at 16.53.17_5ede49b1.jpg"
+import siddesh from "../../Assets/Team_24-25/Siddhesh_Venkat/IMG-20240704-WA0108(1).jpg"
+import sharli from "../../Assets/Team_24-25/Sharli_Chauhan/Picsart_24-08-24_13-19-44-491.jpg"
+import tiesha from "../../Assets/Team_24-25/Tiesha_Tripathi/20231204_173228.jpg"
+import siddhi from "../../Assets/Team_24-25/Siddhi_Mahale/IMG_20241017_232757.jpg"
+import shrusti from "../../Assets/Team_24-25/Shrusti_Wani/WhatsApp Image 2024-10-17 at 21.28.37_7c08714b.jpg"
+import dr_kalyani from "../../Assets/Team_24-25/Dr_Kalyani/dr-kalyani-pampattiwar.jpg"
+
+
 const Member = ({ name, role, imgSrc, linkedin }) => (
   <li className="member">
     <div className="member-image">
@@ -47,163 +87,223 @@ const Team = () => (
     <section id='Teams'>
   <ul className="list-members">
     <Member
-      name="Dr.Kaustubh Chavan"
+      name="Dr. Kalyani Pampattiwar"
       role="Incharge"
-      imgSrc={chavan}
-      linkedin="https://www.linkedin.com/in/dr-kaustubh-chavan-94473017/"
+      imgSrc={dr_kalyani}
+      linkedin="https://www.linkedin.com/in/dr-kalyani-pampattiwar-8b2415177/?originalSubdomain=in"
     />
     <Member
-      name="Ved Gawade"
+      name="Kiran Chinchawade"
       role="Chairperson"
-      imgSrc={Ved}
-      linkedin="https://www.linkedin.com/in/ved-gawade/"
+      imgSrc={kiran}
+      linkedin="https://www.linkedin.com/in/kiran-chinchawade-91105722a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
     />
     <Member
-      name="Anamika Nevase"
+      name="Yash Bhujbal"
       role="E-cell Representative and Incubation Head"
-      imgSrc={Anamika}
-      linkedin="https://www.linkedin.com/in/anamikanevase4433/"
+      imgSrc={yash_b}
+      linkedin="https://www.linkedin.com/in/yash-bhujbal-740ab5229"
     />
     <Member
-      name="Hitesh Patil"
-      role="Design Head"
-      imgSrc={Hitesh}
-      linkedin="https://www.linkedin.com/in/hitesh-patil-b5b3bb216/"
+      name="Ayush Patil"
+      role="Technical Head"
+      imgSrc={ayush}
+      linkedin="https://www.linkedin.com/in/ayush-patil-3865b8227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
     />
   </ul>
   <ul className="list-members">
     <Member
-      name="Sarvesh Bhayyje"
-      role="PR and Marketing Head"
-      imgSrc={sarvesh}
-      linkedin="https://www.linkedin.com/in/sarvesh-bhayje-a66059212/"
+      name="Ratul Raj"
+      role="Treasurer & Content Head"
+      imgSrc={ratul}
+      linkedin="https://www.linkedin.com/in/ratul-raj-23a43b298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
     />
     <Member
-      name="Sakshi Sakhare"
-      role="Social Media and Publicity Head"
-      imgSrc={sakshi}
-      linkedin="https://www.linkedin.com/in/sakshi-sakhare-0902/"
+      name="Arya Pawar"
+      role="Social Media Head"
+      imgSrc={arya}
+      linkedin="https://www.linkedin.com/in/aryapawar0207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
     />
     <Member
-      name="Yash Bhujbal"
+      name="Rajneel Chougule"
       role="Vice-Chairperson"
-      imgSrc={Yash}
-      linkedin="https://www.linkedin.com/in/yash-bhujbal-740ab5229"
+      imgSrc={rajneel}
+      linkedin="https://www.linkedin.com/in/rajneelchougule"
     />
     <Member
-      name="Rajiv Patkar"
+      name="Shravani Shinde"
       role="Secretary"
-      imgSrc={rajiv}
-      linkedin="https://www.linkedin.com/in/rajivpatkar"
+      imgSrc={shravani}
+      linkedin="https://www.linkedin.com/in/shravani-shinde-/
+"
     />
   </ul>
 
   <ul className="list-members">
     <Member
-      name="Rishi Krishnan"
+      name="Vedant Thakur"
       role="Treasurer"
-      imgSrc={rishik}
-      linkedin="https://www.linkedin.com/in/rishi-krishnan-42184a248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      imgSrc={vedant}
+      linkedin="https://www.linkedin.com/in/vedantthakurrr/"
     />
     <Member
-      name="Harshkumar Pasi"
+      name="Mihir Panpatil"
+      role="Incubation Lead"
+      imgSrc={mihir}
+      linkedin="https://www.linkedin.com/in/mihirpanpatil/"
+    />
+    <Member
+      name="Yash Varma"
+      role="Technical Lead"
+      imgSrc={yash_v}
+      linkedin="https://linkedin.com/in/yashhvarma"
+    />
+    <Member
+      name="Adarsh Korade"
+      role="Outreach Lead"
+      imgSrc={adarsh}
+      linkedin="http://linkedin.com/in/adarshkorade"
+    />
+  </ul>
+  <ul className="list-members">
+    <Member
+      name="Adithya Venkat"
+      role="Design Lead"
+     imgSrc={adithya}
+     linkedin="https://www.linkedin.com/in/adithya-venkat/"
+    />
+    <Member
+      name="Rithvik Shetty"
+      role="Social Media Lead"
+      imgSrc={rithvik}
+      linkedin="https://www.linkedin.com/in/rithvikshetty/"
+    />
+    <Member
+      name="OM Revankar"
+      role="Technical Co-ord"
+      imgSrc={om}
+      linkedin="https://www.linkedin.com/in/om-revankar-1a824b29b/"
+    />
+    <Member
+      name="Varun Ubale"
+      role="Technical Co-ord"
+      imgSrc={varun}
+      linkedin="https://www.linkedin.com/in/varun-ubale"
+    />
+  </ul>
+  <ul className="list-members">
+  <Member
+      name="Nadaa Ahamed"
       role="Incubation Co-ord"
-      imgSrc={pasi}
-      linkedin="https://linkedin.com/in/harshkp19"
+      imgSrc={nadaa}
+      linkedin="http://linkedin.com/in/nadaa-ahamed-7456b32b3"
     />
     <Member
-      name="Ayush Mokal"
-      role="Community Co-ord"
-      imgSrc={mokal}
-      linkedin="https://www.linkedin.com/in/ayushmokal/"
+      name="Praveen Shukla"
+      role="Incubation Co-ord"
+      imgSrc={praveen}
+      linkedin="https://www.linkedin.com/in/praveen-shukla-0585812b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     />
     <Member
-      name="Kiran Chinchawade"
-      role="Community Co-ord"
-      imgSrc={kiran}
-      linkedin="https://www.linkedin.com/in/kaustubh-chavan/"
+      name="Muthushri Pillai"
+      role="Outreach Co-ord"
+      imgSrc={muthushri}
+      linkedin="https://www.linkedin.com/in/muthushri-pillai-680a262b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    />
+    <Member
+      name="Tanishq Thorat"
+      role="Outreach Co-ord"
+      imgSrc={tanishq}
+      linkedin="https://www.linkedin.com/in/tanishq-thorat-9a7955238"
     />
   </ul>
   <ul className="list-members">
-    <Member
-      name="Rishi Jha"
-      role="PR Co-ord"
-     imgSrc={rishij}
-     linkedin="https://www.linkedin.com/in/rishi-jha-531b73248/"
+  <Member
+      name="Priya Darshini"
+      role="Marketing Co-ord"
+      imgSrc={priya}
+      linkedin="https://www.linkedin.com/in/priya-darshini-k-a935b32b7"
     />
     <Member
-      name="Jiya Shetty"
-      role="PR Co-ord"
-      imgSrc={jiya}
-      linkedin="http://linkedin.com/in/jiya-shetty-8a6517251"
+      name="Ojas Neve"
+      role="Marketing Co-ord"
+      imgSrc={ojas}
+      linkedin="https://www.linkedin.com/in/ojasneve"
     />
     <Member
-      name="Nidhi Nandikol"
-      role="Outreach Co-ord"
-      imgSrc={nidhi}
-      linkedin="https://www.linkedin.com/in/nidhi-nandikol-46418a283"
+      name="Sudeepto Ghosh"
+      role="Marketing Co-ord"
+      imgSrc={sudeepto}
+      linkedin="https://www.linkedin.com/in/sudeeptoghosh10"
     />
     <Member
-      name="Arya Pawar"
-      role="Outreach Co-ord"
-      
-      imgSrc={arya}
-      linkedin="https://www.linkedin.com/in/aryapawar0207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    />
-  </ul>
-  <ul className="list-members">
-    <Member
-      name="Ayush Patil"
-      role="Tech Co-ord"
-      imgSrc={ayush}
-      linkedin="https://www.linkedin.com/in/ayush-patil-3865b8227/"
-    />
-    <Member
-      name="Aditya Rao"
-      role="Tech Co-ord"
-      imgSrc={rao}
-      linkedin="https://www.linkedin.com/in/kaustubh-chavan/"
-    />
-    <Member
-      name="Omkar gorde"
-      role="Tech Co-ord"
-      imgSrc={Omkar}
-      linkedin="https://www.linkedin.com/in/omkargorde"
-    />
-    <Member
-      name="Ratul Raj"
+      name="Sara Bhalerao"
       role="Content Co-ord"
-      imgSrc={Ratul}
-      linkedin="https://www.linkedin.com/in/kaustubh-chavan/"
+      imgSrc={sara}
+      linkedin="https://www.linkedin.com/in/sara-bhalerao-a9b23b27b"
     />
   </ul>
   <ul className="list-members">
+  <Member
+      name="Arya Mishra"
+      role="Content Co-ord"
+      imgSrc={arya_m}
+      linkedin="https://www.linkedin.com/in/arya-mishra-5596b332"
+    />
     <Member
-      name="Atharv Choughule"
+      name="Siddesh Venkat"
       role="Design Co-ord"
-      imgSrc={atharv}
-      linkedin="https://www.linkedin.com/in/kaustubh-chavan/"
+      imgSrc={siddesh}
+      linkedin="https://www.linkedin.com/in/siddhesh-venkat-75675a2b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     />
     <Member
-      name="Yash Bhandare"
+      name="Sharli Chauhan"
       role="Design Co-ord"
-      imgSrc={bhandare}
-      linkedin="https://www.linkedin.com/in/kaustubh-chavan/"
+      imgSrc={sharli}
+      linkedin="https://www.linkedin.com/in/sharli-chauhan-5245232b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+
     />
     <Member
-      name="Anvit Nayak"
-      role="Social Media Co-ord"
-      imgSrc={anvit}
-      linkedin="https://www.linkedin.com/in/kaustubh-chavan/"
-    />
-    <Member
-      name="Piyush Salunkhe"
-      role="Social Media Co-ord"
-      imgSrc={piyush}
-      linkedin="https://www.linkedin.com/in/kaustubh-chavan/"
+      name="Tiesha Tripathi"
+      role="Design Co-ord"
+      imgSrc={tiesha}
+      linkedin="https://www.linkedin.com/in/tiesha-tripathi-358210273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     />
   </ul>
+  <ul className="list-members">
+  <Member
+      name="Siddhi Mahale"
+      role="Social Media Co-ord"
+      imgSrc={siddhi}
+      linkedin="https://www.linkedin.com/in/siddhi-mahale-678471301/"
+    />
+    <Member
+      name="Shrusti Wani"
+      role="Social Media Co-ord"
+      imgSrc={shrusti}
+      linkedin="linkedin.com/in/shrusti-wani-2337b52b3"
+    />
+  </ul>
+
   </section>
 );
 
 export default Team;
+
+
+/*ERROR in ./src/Pages/Team/team.js 43:0-20
+Module not found: Error: Empty dependency (no request)
+
+webpack compiled with 1 error and 3 warnings
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app project, which
+is not maintianed anymore. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.
+ */

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@700&family=PT+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Poppins&display=swap');
+:root {
+  --containerColor: #0F151C;
+  --textColor: #aacbf4;
+  --linkColor: #fff;
+  --primaryColor: #0668CB;
+  --secondaryColor: #1DCEEF;
+  --complementaryColor: rgb(255, 255, 148);
+  --DefaultFont: 'League Spartan', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:var(--DefaultFont);
+  background-color: var(--containerColor);
+  color: var(--textColor);
+}
+section .events h1{
+  text-align: center;
+}
+#timeline {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "main main" "event event";
+  background-image: url(https://s3.ca-central-1.amazonaws.com/image-web-frankie/Music+show.jpg);
+  background-size: cover;
+  background-position: center;
+height: auto;
+}
+section .leftBox .content h1{
+  font-size: 30px;
+}
+
+
+
+.leftBox {
+  grid-area: main;
+  padding: 50px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+section .leftBox .content {
+  color: #fff;
+  background-color:var(--containerColor);
+  padding: 20px;
+  transition: 0.5s;
+}
+
+section .leftBox .content:hover {
+  background-color: rgb(10, 77, 141);
+}
+
+
+
+section .leftBox .content p {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+section .events {
+  grid-area: event;
+  
+  box-sizing: border-box;
+}
+
+section .events ul {
+  margin: 0;
+  padding: 40px;
+  list-style: none;
+}
+
+section .events ul li {
+  background-color: var(--containerColor);
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 0;
+  grid-template-areas: "time time" "detail detail";
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  section .events ul li {
+    grid-template-areas: "time detail" "time detail";
+  }
+}
+
+section .events ul li .time {
+  grid-area: time;
+  position: relative;
+  padding: 8%;
+  background-color:var(--primaryColor);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: 0.5s;
+}
+
+section .events ul li:hover .time {
+  background-color: var(--primaryColor);
+}
+
+section .events ul li .time h2 {
+  margin: 0;
+  padding: 0;
+  color: var(--textColor);
+  font-size: 20px;
+
+}
+
+section .events ul li .time h2 span {
+  font-size: 30px;
+}
+
+section .events ul li .details {
+  grid-area: detail;
+  padding: 20px 20px 32px;
+  background-color: var(--containerColor);
+  box-sizing: border-box;
+}
+
+section .events ul li .details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  color:white;
+}
+
+section .events ul li .details p {
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+section .events ul li .details a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 2px solid #262626;
+  margin-top: 16px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+section .events ul li .details a:hover {
+  background-color:var(--primaryColor);
+  color: #fff;
+  border-color:var(--linkColor);
+}
+@media (min-width: 1200px) {
+  #timeline {
+    grid-template-areas: "main event" "main event";
+  }
+  section .leftBox .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+   
+  }
+  section .leftBox .content {
+    
+    padding: 50px;
+    
+  }
+  .leftBox {
+    
+    padding: 100px;
+    
+  }
+  
+}

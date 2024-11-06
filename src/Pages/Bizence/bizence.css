@@ -1,0 +1,29 @@
+body{
+    overflow-x: hidden;
+}
+h1{
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+ #aboutis  img{
+  width: 80%;  
+
+ 
+}
+#aboutis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+#bizencepage{
+    background-color:#02041a;
+}
+.mt-5{
+    background-color: aqua;
+}
+@media only screen and (min-width: 992px){
+    #aboutis img{
+        width: 100%;
+    }
+}
