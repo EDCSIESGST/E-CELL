@@ -34,10 +34,11 @@ function Home() {
   </div>
 </section>
 
+    {/* <Link to ="https://chat.whatsapp.com/KrvvgTrbob62iMeAWQXx3V"> <button class="button-9" role="button">Join for Updates</button>
+    </Link>     */}
       
 <section id ="Whatsappbut"  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-    <Link to ="https://chat.whatsapp.com/KrvvgTrbob62iMeAWQXx3V"> <button class="button-9" role="button">Join for Updates</button>
-    </Link>    </section>
+    </section>
       <About />
       <Stats />
       <Events />
