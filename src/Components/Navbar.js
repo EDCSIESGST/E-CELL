@@ -48,10 +48,10 @@ const Navbar = () => {
                                 <button type="button" className="btn1 mx-2" id='Communitybutton'>  <Link className="nav-link" to="/Community">Community</Link></button>
                                
                             </div>
-                            <div className="mx-3">
+                            {/* <div className="mx-3">
                                 <button type="button" className="btn1 mx-2" id='Communitybutton'>  <Link className="nav-link" to="/Bizence">Bizence</Link></button>
                                
-                            </div> 
+                            </div>  */}
                         </ul>
                     </div>
                     

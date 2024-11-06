@@ -2,17 +2,17 @@ import React from 'react';
 
 import "./footer.css"
 import logo from "..//../src/Assets/Images/Logo.png"
-import nba from "../Assets/Images/image 3.png"
+// import nba from "../Assets/Images/image 3.png"
 const Footer = () => {
   return (
     <div className='footer'>
       <div className="container">
         <div className = "Leftfooter">
-            <img src ={logo}></img>
+            <img src ={logo} alt='logo'></img>
 
 <p>We conduct a number of workshops, speaker sessions, inter-collegiate and national level competitions and also support student-run ventures.</p>
-<p>Contact: +91 97572 12304</p>
-      <p>Mail:edc@siesgst.ac.in</p>
+      <a href='tel:+919324246737' >Contact: +91 93242 46737</a> <br/>
+      <a href="mailto:edc@siesgst.ac.in" target="_blank" rel="noreferrer">Mail: edc@siesgst.ac.in</a>
         </div>
         <div className = "RightFooter">
         <iframe
