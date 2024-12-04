@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1af64d5.css",
-    "main.js": "/static/js/main.f6144c78.js",
+    "main.js": "/static/js/main.8e2f8a01.js",
     "static/media/e-cell_23-24_report-magazine.pdf": "/static/media/e-cell_23-24_report-magazine.f11d299f48fe678ad6ef.pdf",
     "static/media/Sequence 01_2.mp4": "/static/media/Sequence 01_2.6b52a8928743be4c8da4.mp4",
     "static/media/DSC_9239.jpg": "/static/media/DSC_9239.89a5fee6b7e679f15043.jpg",
@@ -12,7 +12,7 @@
     "static/media/banner.png": "/static/media/banner.f6d921519122e734ccdd.png",
     "static/media/IMG_1226.JPG": "/static/media/IMG_1226.e90ad0997130308a1b5c.JPG",
     "static/media/IMG_1167.jpg": "/static/media/IMG_1167.7dcd686ada59bd41ff77.jpg",
-    "static/media/_storage_emulated_0_DCIM_Camera_IMG_20221224_130752.jpg": "/static/media/_storage_emulated_0_DCIM_Camera_IMG_20221224_130752.628e04c1a583fe1c805d.jpg",
+    "static/media/kiran.jpg": "/static/media/kiran.628e04c1a583fe1c805d.jpg",
     "static/media/20231204_173228.jpg": "/static/media/20231204_173228.d4a00f32652688065252.jpg",
     "static/media/1700593386497.jpg": "/static/media/1700593386497.0c7145f6f7c3cdd423da.jpg",
     "static/media/Adithya.png": "/static/media/Adithya.f103a1980085a0639ff0.png",
@@ -60,10 +60,10 @@
     "static/media/dr-kalyani-pampattiwar.jpg": "/static/media/dr-kalyani-pampattiwar.12649901e4de1ffdb780.jpg",
     "index.html": "/index.html",
     "main.e1af64d5.css.map": "/static/css/main.e1af64d5.css.map",
-    "main.f6144c78.js.map": "/static/js/main.f6144c78.js.map"
+    "main.8e2f8a01.js.map": "/static/js/main.8e2f8a01.js.map"
   },
   "entrypoints": [
     "static/css/main.e1af64d5.css",
-    "static/js/main.f6144c78.js"
+    "static/js/main.8e2f8a01.js"
   ]
 }
