@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee14aaf4.css",
+    "main.css": "/static/css/main.e1af64d5.css",
     "main.js": "/static/js/main.f6144c78.js",
     "static/media/e-cell_23-24_report-magazine.pdf": "/static/media/e-cell_23-24_report-magazine.f11d299f48fe678ad6ef.pdf",
     "static/media/Sequence 01_2.mp4": "/static/media/Sequence 01_2.6b52a8928743be4c8da4.mp4",
@@ -59,11 +59,11 @@
     "static/media/Steps.png": "/static/media/Steps.0439dd5e504e419d9714.png",
     "static/media/dr-kalyani-pampattiwar.jpg": "/static/media/dr-kalyani-pampattiwar.12649901e4de1ffdb780.jpg",
     "index.html": "/index.html",
-    "main.ee14aaf4.css.map": "/static/css/main.ee14aaf4.css.map",
+    "main.e1af64d5.css.map": "/static/css/main.e1af64d5.css.map",
     "main.f6144c78.js.map": "/static/js/main.f6144c78.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee14aaf4.css",
+    "static/css/main.e1af64d5.css",
     "static/js/main.f6144c78.js"
   ]
 }
