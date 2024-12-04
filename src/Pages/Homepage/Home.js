@@ -42,11 +42,11 @@ function Home() {
       <About />
       <Stats />
       <Events />
-      <section id='Councilphoto' >
+      <section id='Councilphoto'  >
 <h1>Council 2023-2024</h1>
 <br></br>
 
-<div id='imgcouncil' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+<div id='imgcouncil' style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <img src ={Councilp}></img>
 </div>
      </section>
