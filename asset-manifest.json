@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1af64d5.css",
-    "main.js": "/static/js/main.8e2f8a01.js",
+    "main.js": "/static/js/main.cd9f0834.js",
     "static/media/e-cell_23-24_report-magazine.pdf": "/static/media/e-cell_23-24_report-magazine.f11d299f48fe678ad6ef.pdf",
     "static/media/Sequence 01_2.mp4": "/static/media/Sequence 01_2.6b52a8928743be4c8da4.mp4",
     "static/media/DSC_9239.jpg": "/static/media/DSC_9239.89a5fee6b7e679f15043.jpg",
@@ -12,7 +12,6 @@
     "static/media/banner.png": "/static/media/banner.f6d921519122e734ccdd.png",
     "static/media/IMG_1226.JPG": "/static/media/IMG_1226.e90ad0997130308a1b5c.JPG",
     "static/media/IMG_1167.jpg": "/static/media/IMG_1167.7dcd686ada59bd41ff77.jpg",
-    "static/media/kiran.jpg": "/static/media/kiran.628e04c1a583fe1c805d.jpg",
     "static/media/20231204_173228.jpg": "/static/media/20231204_173228.d4a00f32652688065252.jpg",
     "static/media/1700593386497.jpg": "/static/media/1700593386497.0c7145f6f7c3cdd423da.jpg",
     "static/media/Adithya.png": "/static/media/Adithya.f103a1980085a0639ff0.png",
@@ -27,6 +26,7 @@
     "static/media/tml-events-webssite.webp": "/static/media/tml-events-webssite.7f690787bb6b5ebdfdf7.webp",
     "static/media/img-8454.webp": "/static/media/img-8454.32cd06faacf05c651a56.webp",
     "static/media/WhatsApp Image 2024-08-25 at 11.28.46 AM.jpeg": "/static/media/WhatsApp Image 2024-08-25 at 11.28.46 AM.2bdf5d74a03694544e8b.jpeg",
+    "static/media/kiran.jpg": "/static/media/kiran.5189511ea9c41bef2a59.jpg",
     "static/media/IMG_20230807_223319.jpg": "/static/media/IMG_20230807_223319.9934c2084fcc00b73cfb.jpg",
     "static/media/WhatsApp Image 2024-10-23 at 16.53.17_5ede49b1.jpg": "/static/media/WhatsApp Image 2024-10-23 at 16.53.17_5ede49b1.6540cfc2b5369db1b52f.jpg",
     "static/media/Screenshot 2023-10-07 142044.png": "/static/media/Screenshot 2023-10-07 142044.eac710cbf00c3bea3075.png",
@@ -60,10 +60,10 @@
     "static/media/dr-kalyani-pampattiwar.jpg": "/static/media/dr-kalyani-pampattiwar.12649901e4de1ffdb780.jpg",
     "index.html": "/index.html",
     "main.e1af64d5.css.map": "/static/css/main.e1af64d5.css.map",
-    "main.8e2f8a01.js.map": "/static/js/main.8e2f8a01.js.map"
+    "main.cd9f0834.js.map": "/static/js/main.cd9f0834.js.map"
   },
   "entrypoints": [
     "static/css/main.e1af64d5.css",
-    "static/js/main.8e2f8a01.js"
+    "static/js/main.cd9f0834.js"
   ]
 }
